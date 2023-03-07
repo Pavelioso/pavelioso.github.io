@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  The way I see it, every life is a pile of good things
-description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
+title:  Facebook F8 Realtime Visuals
+description: A crazy realtime event responsive mapping for Facebook's F8 conference.
 date:   2018-10-31 15:01:35 +0300
-image:  '/images/11.jpg'
-tags:   [life, rest]
+image:  '/images/f8/f8-photo-1.jpg'
+tags:   [events, videomapping]
 featured: true
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
