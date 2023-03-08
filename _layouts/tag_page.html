@@ -1,6 +1,27 @@
 ---
 layout: default
 ---
+<div class="post">
+<h1>Tag: {{ page.tag }}</h1>
+<ul>
+{% for post in site.tags[page.tag] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+  </li>
+{% endfor %}
+</ul>
+</div>
+<hr>
+
+
+
+
+
+
+
+<!-- ---
+layout: default
+---
 <div class="container">
   <div class="row">
     <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
@@ -24,4 +45,4 @@ layout: default
       </div>
     </div>
   </div>
-</div>
+</div> -->

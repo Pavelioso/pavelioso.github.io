@@ -4,7 +4,7 @@ title:  Don't use Megascans.
 description: Prevent yourself from falling into the "Realistic Graphics" pit.
 date:   2018-11-13 15:01:35 +0300
 image:  '/images/owl_mountains_bunker.jpg'
-tags:   [gamedev, comment]
+tags:   [gamedev, comment, hololens]
 ---
 ## Try not to use Megascans as Indie. Hear me out.
 
