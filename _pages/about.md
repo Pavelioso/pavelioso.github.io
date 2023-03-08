@@ -7,7 +7,7 @@ image: '/images/backgrounds/bg-2.jpg'
 
 In game development, there is a rule, where one shouldn't force the player to read a wall of text, instead, leave it up to player's choice - quests and important game information is short, and non-important information is hidden for the player to find, which, usually is a wall of text. Since the current of the internet seas took you to an "about" page of myself, I will believe that you are the latter, though I present to you the choice - Either you can turn back, live as you lived, or you can chew through my babbling about me, and see how deep the rabbit hole goes.
 
-![My home, Tenerife.]({{site.baseurl}}/images//about/about-6.jpg)
+![My home, Tenerife.]({{site.baseurl}}/images/about/about-6.jpg)
 *My home, Tenerife.*
 
 I'm Pavel Necas, and I'm a multi-talented creative professional with a diverse background in game development, production workflows, programming, 3D, VR, and product conception and realization. I know, it sounds like a lot, but trust me, it's been a wild ride. 
@@ -27,7 +27,8 @@ After that, I spent some time working on VR projects for clients, which was a re
 
 These days, I'm all about programming and building products that make a real difference. I'm all about finding creative solutions that work well within budgets, and I'm not afraid to roll up my sleeves and get the job done.
 
-<p><iframe src="https://www.youtube.com/embed/QyQ85DEVpbc" frameborder="0" allowfullscreen></iframe></p>
+![W124]({{site.baseurl}}/images/about/about-7.jpg)
+*My baby, a classic E300 W124 Mercedes E-class which I spend too much time on.*
 
 Over the years, I've had the opportunity to work in some amazing places like the Netherlands, Sweden, the United States, and the Czech Republic. It's been an incredible journey, and I'm grateful for all the experiences and the people I've met along the way.
 
