@@ -5,26 +5,30 @@ permalink: /about/
 image: '/images/backgrounds/bg-2.jpg'
 ---
 
-Hi, my name is Robert Wilson. Sin tantum modo ad indicia veteris memoriae virtute cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam. Serpere genere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari disseretur inter.
+In game development, there is a rule, where one shouldn't force the player to read a wall of text, instead, leave it up to player's choice - quests and important game information is short, and non-important information is hidden for the player to find, which, usually is a wall of text. Since the current of the internet seas took you to an "about" page of myself, I will believe that you are the latter, though I present to you the choice - Either you can turn back, live as you lived, or you can chew through my babbling about me, and see how deep the rabbit hole goes.
 
-![Time to think]({{site.baseurl}}/images/501.jpg)
-*Minimalism / [Unsplash](https://unsplash.com/)*
+![My home, Tenerife.]({{site.baseurl}}/images//about/about-6.jpg)
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. An, partus ancillae sitne in fructu disseretur sine reprehensione iracundia.
+I'm Pavel Necas, and I'm a multi-talented creative professional with a diverse background in game development, production workflows, programming, 3D, VR, and product conception and realization. I know, it sounds like a lot, but trust me, it's been a wild ride. 
+
+I started off as a 3D generalist and eventually found my way to the video mapping industry, where I wore many hats as a project manager, designer, concept artist, and programmer. It was a crazy time, but I loved every minute of it.
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/900.jpg">
-    <img src="/images/901.jpg">
-    <img src="/images/902.jpg">
+    <img src="/images/about/about-1.jpg">
+    <img src="/images/about/about-3.jpg">
+    <img src="/images/about/about-4.jpg">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine pertectam reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente nona civitatis.
+After that, I spent some time working on VR projects for clients, which was a really exciting and innovative field to be a part of. But then I discovered my true calling - game development. I spent a solid 8 years in the game industry, learning the ins and outs of 3D modeling, programming, audio design, and game design. It was a challenging and rewarding experience, and I loved being able to see my ideas come to life. I released one indie game!
+
+These days, I'm all about programming and building products that make a real difference. I'm all about finding creative solutions that work well within budgets, and I'm not afraid to roll up my sleeves and get the job done.
 
 <p><iframe src="https://www.youtube.com/embed/QyQ85DEVpbc" frameborder="0" allowfullscreen></iframe></p>
 
-Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim fitus dissolutum sit, id esse sine sensu, utilitas quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis voluptatibus? Utram tandem linguam nescio.
+Over the years, I've had the opportunity to work in some amazing places like the Netherlands, Sweden, the United States, and the Czech Republic. It's been an incredible journey, and I'm grateful for all the experiences and the people I've met along the way.
+
+Thanks for taking the time to get to know me a little better. I'm always up for new challenges and collaborations, so don't hesitate to get in touch!
 
 <hr>
