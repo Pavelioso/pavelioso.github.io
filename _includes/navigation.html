@@ -9,7 +9,7 @@
   
   
   {% for page in site.pages %}
-    {% unless page.name == 'tags.html' or page.name == '404.html' or page.title contains "tag" or page.title contains "TAG" %}
+    {% unless page.name == 'tags.html' or page.name == '404.html' or page.name == "concept.html" %}
       {% if page.title %}
       <li class="nav__item">
         <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
