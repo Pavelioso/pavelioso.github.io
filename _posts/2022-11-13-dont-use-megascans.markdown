@@ -16,9 +16,9 @@ All of a sudden, acquiring realistic models became a lot easier, and so the game
 
 Megascans were excellent quality assets for the time, since they were scanned in an environment with equalized lighting conditions (among other things). During our development, we jumped on Megascans heads on, since we believed that "the more realistic graphics = more attention and sales" rabbit hole. But soon after we realized what we got ourselves into.
 
-![Most of assets here were scanned from old factories in Prague.](../images/owl_mountains_1.jpg "Owl Mountains Bunker")
+![Most of assets here were scanned from old factories in Prague.]({{site.baseurl}}/images/owl_mountains_1.jpg "Owl Mountains Bunker")
 
-![We found and scanned an old bunker.](../images/owl_mountains_bunker.jpg "Owl Mountains Bunker")
+![We found and scanned an old bunker.]({{site.baseurl}}/images/owl_mountains_bunker.jpg "Owl Mountains Bunker")
 
 The images above are a few examples of environments that I was working on with our own scans.
 They look great once you look at it from one angle. But his is a computer game goddammit, and the player has to walk around! 
