@@ -43,18 +43,18 @@ layout: default
               {% if page.tags.size >= 1 %}
               <span>in</span>
               
-              <span>[
+              <!-- <span>[
                 {% for tag in page.tags %}
                   {% capture tag_name %}{{ tag }}{% endcapture %}
                   <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
                 {% endfor %}
-              ]</span>
+              ]</span> -->
               
-              <!-- <span class="post-tags">
+              <span class="post-tags">
                 {% for tag in page.tags %}
-                <div href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</div>
+                <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>
                 {% endfor %}
-              </span> -->
+              </span>
               {% endif %}
             </div>
           </div>
