@@ -8,6 +8,7 @@ image: '/images/backgrounds/bg-2.jpg'
 In game development, there is a rule, where one shouldn't force the player to read a wall of text, instead, leave it up to player's choice - quests and important game information is short, and non-important information is hidden for the player to find, which, usually is a wall of text. Since the current of the internet seas took you to an "about" page of myself, I will believe that you are the latter, though I present to you the choice - Either you can turn back, live as you lived, or you can chew through my babbling about me, and see how deep the rabbit hole goes.
 
 ![My home, Tenerife.]({{site.baseurl}}/images//about/about-6.jpg)
+*My home, Tenerife.*
 
 I'm Pavel Necas, and I'm a multi-talented creative professional with a diverse background in game development, production workflows, programming, 3D, VR, and product conception and realization. I know, it sounds like a lot, but trust me, it's been a wild ride. 
 
@@ -19,6 +20,7 @@ I started off as a 3D generalist and eventually found my way to the video mappin
     <img src="/images/about/about-3.jpg">
     <img src="/images/about/about-4.jpg">
   </div>
+  <em>A little bit of myself.</a></em>
 </div>
 
 After that, I spent some time working on VR projects for clients, which was a really exciting and innovative field to be a part of. But then I discovered my true calling - game development. I spent a solid 8 years in the game industry, learning the ins and outs of 3D modeling, programming, audio design, and game design. It was a challenging and rewarding experience, and I loved being able to see my ideas come to life. I released one indie game!
