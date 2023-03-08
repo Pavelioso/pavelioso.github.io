@@ -3,10 +3,6 @@
     <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
   </li>
   
-  <li class="nav__item">
-    <a href="{{ site.baseurl/About }}/" class="nav__link">WASSUP</a>
-  </li>
-  
   
   {% for page in site.pages %}
     {% unless page.name == 'tags.html' or page.name == '404.html' or page.layout == "tag_page" %}
