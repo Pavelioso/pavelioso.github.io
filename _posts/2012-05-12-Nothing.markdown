@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Do what you can, with what you have, where you are
-description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
+title:  Icy Tower Basic Clone
+description: A quick practice with C# and Unity.
 date:   2018-11-12 15:01:35 +0300
-image:  '/images/100.jpg'
-tags:   [nature, life, story]
+image:  '/images/icy-tower-basic/icy-tower-basic-1.png'
+tags:   [game, C#]
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
 
