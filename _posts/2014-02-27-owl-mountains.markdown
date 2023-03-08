@@ -19,7 +19,7 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
 
 # Welcome to OWL MOUNTAINS
 
-![Cover]({{site.baseurl}}/owl-mountains-cover.jpg)
+![Cover]({{site.baseurl}}/bunker/owl-mountains-cover.jpg)
 
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
