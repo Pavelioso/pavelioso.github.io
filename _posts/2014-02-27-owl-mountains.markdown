@@ -11,9 +11,8 @@ featured: true
 ## It's year 1979,
  northern Czechoslovakia, under the communist regime. Karel, of 65 years, a history teacher, is sitting in his home, looking out the window with cigarette in his hand. The weather outside is murky, it's almost raining. Clouds are grey, blending in with the surroundings buildings, painted dark from coal smog in the air. Karel remembers the time before the regime - the freedom that he possessed for few years. He always remembers, it's always on his mind, like a worm stuck and growing in his cortex. Karel isn't a revolutionary. He prefers to stand in line, never thought of himself as anything else than a teacher in a smalltown school on a northern border with Poland. His fascination with history allowed him to posses deep understanding of when and where, but, he himself, rarely ever left his small town of Hronov. Never used that knowledge for anything. 
 
-<p><iframe src="https://www.youtube.com/watch?v=9LXRBHtphPw" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/9LXRBHtphPw" frameborder="0" allowfullscreen></iframe></p>
 
- 
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 >
