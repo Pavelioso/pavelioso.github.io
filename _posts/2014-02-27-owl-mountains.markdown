@@ -6,7 +6,13 @@ date:   2018-04-24 15:01:35 +0300
 image:  '/images/bunker/bunker-lights2.jpg'
 tags:   [concept, gamedev]
 ---
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
+
+## It's year 1979,
+ northern Czechoslovakia, under the communist regime. Karel, 65 years, old, a history teacher, is sitting in his home, looking out the window with cigarette in his hand. The weather outside is murky, it's almost raining. Karel remembers the time before the regime - the freedom that he possessed for few years. He always remembers, it's always on his mind, like a worm stuck and growing in his cortex. Karel isn't a revolutionary. He prefers to stand in line, never thought of himself as anything else than a teacher in a smalltown school on a northern border with Poland. His fascination with history allow him to posses deep understanding of when and where, but, he himself, rarely ever left his small town of Hronov. Never used that knowledge for anything.
+
+<p><iframe src="https://youtu.be/9LXRBHtphPw" frameborder="0" allowfullscreen></iframe></p>
+
+ 
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 >
