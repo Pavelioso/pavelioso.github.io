@@ -1,5 +1,5 @@
 ---
 layout: tag_page
-title: "Tag: hololens"
-tag: hololens
+title: "Tag: hololens2"
+tag: hololens2
 ---
