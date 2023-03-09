@@ -35,9 +35,11 @@ layout: default
       <div class="container__inner">
         <div class="row grid">
           {% if site.posts.size > 0 %}
-            {% for post in paginator.posts %}
-              {% include article-content.html %}
-            {% endfor %}
+            {% unless post.featured == true %}
+              {% for post in paginator.posts %}
+                {% include article-content.html %}
+              {% endfor %}
+            {% endunless %}
           {% endif %}
         </div>
       </div>
