@@ -29,7 +29,7 @@ A little of a history here: The Owl Mountains was a supposed bunker complex that
 - There are stories that a Nazi "Bell" was present, which was supposedly used to enrich uranium. This gives opportunity for the typical trope "radiation = mutated stuff around". 
 - The only thing that can grow in darkness are mushrooms. What if the people trapped inside actually survived on mushrooms?
 
-![Bunker]({{site.baseurl}}/images/bunker/owl-mountains-outside-1.jpg)
+![Bunker]({{site.baseurl}}/images/bunker/bunker-08.jpg)
 *Bunkers, riddled around the border.*
 
 ## A little word from me.
@@ -37,31 +37,60 @@ A little of a history here: The Owl Mountains was a supposed bunker complex that
 It is important that a story develops in an environment that supports it, and is a bit grounded. Dead Space games make sense, it feels "real" and the setting supports the atmosphere - the setting is carefully crafted so nothing seems to be off. Of course, you play as an engineer that uses sci-fi tools to kill monstrosities in zero-g, though it does feel real. The world building makes sense. Another example with Half Life 2. The world feels real, there can be invasion of galaxy faring species, that slowly start assimilating yet another victim - humanity.
 In this game concept, we are playing around with topics that just beg to be source of inspiration. But to keep the concept grounded, I gathered as much of information, and connected that information into this environment setting and potentially the environment's story:
 
+![Bunker]({{site.baseurl}}/images/bunker/bunker-01.jpg)
+
 ## The Environment's Story.
 
 The Owl Mountains bunker complex's entrances were blown by Soviets, trapping all inside. Mass panic ensued, all were fighting for food, light, and survival. After all resources were depleted, cannibalism became common. Though few survivors started cultivating a special mushroom, left over in one of the kitchens, a supposed delicatesse for the Reich's elites. Now, the mushroom acting as the only source of food, it needed to grow from something - the cultivators used dead bodies as substrate. Morbid but functional. After years being stuck in darkness, human flesh and mushroom as the only source of food, the survivors were psychologically long gone. To try to dig yourself out was impossible, the noise attracted any that wanted to use your body as a source of nutrition or as a substrate. But yet another horror slowly grown in the background - the mushroom that ultimately saved many started spreading, changing, ever hungry now for what it was used to - for human flesh. It is found out that a "Nazi" bell is present in the complex, spilling out irradiated water, which seeped through the entire bunker complex, mutating and killing everything is its path. The mushroom started to devour the entire surviving populace, almost as if the mushroom became the stomach, and everyone was in it. With most people dead, or mutated and crazed by the mushroom and environment, Karel arrives to the complex through a crack in the mountain. In this extremely hostile environment, he has to survive, explore the complex and find a way out. Few inside are still a bit sane, and start talking to Karel through pipes and intercoms, that there is a supposed "hidden golden exit", for Hitler himself. Through Karel's help, they will try to rediscover this golden exit, and try to get out.
 
 ![Bunker]({{site.baseurl}}/images/bunker/bunker-02.jpg)
 
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/bunker/bunker-03.jpg">
+    <img src="/images/bunker/bunker-04.jpg">
+    <img src="/images/bunker/bunker-05.jpg">
+    <img src="/images/bunker/bunker-06.jpg">
+    <img src="/images/bunker/bunker-07.jpg">
+    <img src="/images/bunker/bunker-09.jpg">
+    <img src="/images/bunker/bunker-10.jpg">   
+  </div>
+</div>
+
 ## The Environment Creation Pipeline
 
-The environment in this case is designed around the fact that small indie team would be in charge of production. This means that the fastest and easiest means of production were researched, in order to stay within supposed budgets but still keep the visual quality.
+The environment in this case is designed around the fact that small indie team would be in charge of production. This means that the fastest and easiest means of production were researched, in order to stay within supposed budgets but still keep the visual quality. Therefore, through R&D, I have concluded that:
+- Models need to be modelled with UV unwrapping in mind - should be as easy to unwrap as possible (for example leave the polygons when should be seams disconnected, more vertexes, but much faster unwrapping speed).
+- No high to low baking of models. Making two models for one has priority.
+- Normal maps should be auto generated, but very flat, almost not present at all.
+- No roughness maps, except for very metallic objects or wet vertex painting for puddles.
+- No auto generated textures - It is fast, but textures are what will make the models pop in this case, and they have to look natural.
+- Good hand UV unwrapping is essential, so it's readable in photoshop (straight polygons, seams should be in natural and hideable places...) 
+- Depending on the size of the model, automatically the artist should choose corresponding texture size (for example door 1024px, and a cup should have 128px) to keep the scene pixel density uniform.
+- Preselected source textures and decals are chosen. A bunker is build from one concrete material in real life, this means that textures are going to have one concrete material. Same with wood, metal, paint. Decals are created for leaks, rust, holes, words, numbering, etc. All of these have to fit together and must be interchangeable. 
+- Textures should be made in photoshop from scratch, from pre-selected textures, finished of with decals that would be in natural places, and dirt.
+- Main structure models have to be modular. 
 
-![Bunker]({{site.baseurl}}/images/bunker/bunker-08.jpg)
+Following this set of instructions, few scenes were created to check the speed of the production, and the general atmosphere and vibe.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit potionibus.
 
-![New York]({{site.baseurl}}/images/610.jpg)
-*New York / [Unsplash](https://unsplash.com/)*
 
-Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis. Put in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere.
+![Bunker]({{site.baseurl}}/images/bunker/bunker-lights3.jpg)
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/bunker/bunker-lights1.jpg">
+    <img src="/images/bunker/bunker-lights2.jpg">
+  </div>
+</div>
 
-<p><iframe src="https://www.youtube.com/embed/QyQ85DEVpbc" frameborder="0" allowfullscreen></iframe></p>
+## Thank you for reading my take on this environment and story. The scenes are not perfect, but what does interest me the most is to develop a workflow that is efficient, while still keeping the desired visual quality.
 
-Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/bunker/bunker-prison_1.jpg">
+    <img src="/images/bunker/bunker-prison_2.jpg">
+    <img src="/images/bunker/bunker-prison_3.jpg">
+  </div>
+</div>
 
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
