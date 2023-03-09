@@ -17,7 +17,7 @@ I started off as a 3D generalist and eventually found my way to the video mappin
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/about/about-1.jpg">
-    <img src="/images/about/about-3.jpg">
+    <!-- <img src="/images/about/about-3.jpg"> -->
   </div>
   <em>A little bit of myself.</a></em>
 </div>

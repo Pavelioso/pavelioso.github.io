@@ -17,10 +17,11 @@ All of a sudden, acquiring realistic models became a lot easier, and so the game
 Megascans were excellent quality assets for the time, since they were scanned in an environment with equalized lighting conditions (among other things). During our development, we jumped on Megascans heads on, since we believed that "the more realistic graphics = more attention and sales" rabbit hole. But soon after we realized what we got ourselves into.
 
 ![Most of assets here were scanned from old factories in Prague.]({{site.baseurl}}/images/owl_mountains_1.jpg "Owl Mountains Bunker")
-*We used photogrammetry to scan a bunker.*
+*Photogrammetry was used to scan and create these objects that we found in deserted factory.*
 
 ![We found and scanned an old bunker.]({{site.baseurl}}/images/owl_mountains_bunker.jpg "Owl Mountains Bunker")
-*Photogrammetry was used to scan and create these objects that we found in deserted factory.*
+*We used photogrammetry to scan a bunker.*
+
 
 The images above are a few examples of environments that I was working on with our own scans.
 They look great once you look at it from one angle. But his is a computer game goddammit, and the player has to walk around! 
@@ -34,7 +35,7 @@ We fell into the 3D scans' asset trap.
 
 
 ![We found and scanned an old bunker.]({{site.baseurl}}/images/bunker/owl-mountains-outside-2.jpg "A rock.")
-*Photoscanned rock from a forest. Not all rocks have to look good.*
+*Photoscanned rock from a forest. Now all rocks have to look good.*
 
 
 > If one rock looks hyper realistic, everything has to be hyper realistic.
