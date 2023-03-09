@@ -50,6 +50,12 @@ The Owl Mountains bunker complex's entrances were blown by Soviets, trapping all
     <img src="/images/bunker/bunker-03.jpg">
     <img src="/images/bunker/bunker-04.jpg">
     <img src="/images/bunker/bunker-05.jpg">
+   
+  </div>
+</div>
+
+<div class="gallery-box">
+  <div class="gallery">
     <img src="/images/bunker/bunker-06.jpg">
     <img src="/images/bunker/bunker-07.jpg">
     <img src="/images/bunker/bunker-09.jpg">
