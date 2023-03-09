@@ -21,7 +21,7 @@ Is the hidden Hitler's underground city in the Owl Mountains real? A massive com
 
 <div class="gallery-box">
   <div class="gallery">
-    <p><iframe src="https://www.youtube.com/embed/BCXLWvrWLHE" frameborder="0" allowfullscreen></iframe></p>
+    <iframe src="https://www.youtube.com/embed/BCXLWvrWLHE" frameborder="0" allowfullscreen></iframe>
     <img src="/images/about/about-3.jpg">
     <img src="/images/about/about-4.jpg">
   </div>
