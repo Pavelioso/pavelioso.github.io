@@ -45,9 +45,9 @@ The Owl Mountains bunker complex's entrances were blown by Soviets, trapping all
 
 ## The Environment Creation Pipeline
 
-The team that was supposed to create the environent 
+The environment in this case is designed around the fact that small indie team would be in charge of production. This means that the fastest and easiest means of production were researched, in order to stay within supposed budgets but still keep the visual quality.
 
-
+![Bunker]({{site.baseurl}}/images/bunker/bunker-08.jpg)
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 >
