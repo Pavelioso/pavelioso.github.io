@@ -23,15 +23,29 @@ Is the hidden Hitler's underground city in the Owl Mountains real? A massive com
 
 ## The Visual Style of Owl Moutains.
 
-A little bit of a history here: The Owl Mountains was a supposed bunker complex that could house thousands of people, and it was build in Poland, in Owl Mountains, on a border with Czechoslovakia. There are a lot of stories and myths around this bunker, and it is a perfect environment and setting for a linear horror adventure experience. These stories are sometimes not so nice, though, it is a perfect opportunity for a game designer to feed off for inspiration.
+A little of a history here: The Owl Mountains was a supposed bunker complex that could house thousands of people, and it was build in Poland, in Owl Mountains, on a border with Czechoslovakia. There are a lot of stories and myths around this bunker, and it is a perfect environment and setting for a linear horror adventure experience. These stories are sometimes not so nice, though, it is a perfect opportunity for a game designer to feed off for inspiration.
 - Apparently this complex could have thousands of people inside, but most is uknown, because of lack of documentation. This sets up the game to be "technically possible".
 - It is told that Soviets blew up the entrances to the complex, trapping all the present populace inside. This is great setup for enemies that player might find in game. 
 - There are stories that a Nazi "Bell" was present, which was supposedly used to enrich uranium. This gives opportunity for the typical trope "radiation = mutated stuff around". 
 - The only thing that can grow in darkness are mushrooms. What if the people trapped inside actually survived on mushrooms?
 
-![Bunker]({{site.baseurl}}/bunker/owl-mountains-outside-1.jpg)
+![Bunker]({{site.baseurl}}/images/bunker/owl-mountains-outside-1.jpg)
 *Bunkers, riddled around the border.*
 
+## A little word from me.
+
+It is important that a story develops in an environment that supports it, and is a bit grounded. Dead Space games make sense, it feels "real" and the setting supports the atmosphere - the setting is carefully crafted so nothing seems to be off. Of course, you play as an engineer that uses sci-fi tools to kill monstrosities in zero-g, though it does feel real. The world building makes sense. Another example with Half Life 2. The world feels real, there can be invasion of galaxy faring species, that slowly start assimilating yet another victim - humanity.
+In this game concept, we are playing around with topics that just beg to be source of inspiration. But to keep the concept grounded, I gathered as much of information, and connected that information into this environment setting and potentially the environment's story:
+
+## The Environment's Story.
+
+The Owl Mountains bunker complex's entrances were blown by Soviets, trapping all inside. Mass panic ensued, all were fighting for food, light, and survival. After all resources were depleted, cannibalism became common. Though few survivors started cultivating a special mushroom, left over in one of the kitchens, a supposed delicatesse for the Reich's elites. Now, the mushroom acting as the only source of food, it needed to grow from something - the cultivators used dead bodies as substrate. Morbid but functional. After years being stuck in darkness, human flesh and mushroom as the only source of food, the survivors were psychologically long gone. To try to dig yourself out was impossible, the noise attracted any that wanted to use your body as a source of nutrition or as a substrate. But yet another horror slowly grown in the background - the mushroom that ultimately saved many started spreading, changing, ever hungry now for what it was used to - for human flesh. It is found out that a "Nazi" bell is present in the complex, spilling out irradiated water, which seeped through the entire bunker complex, mutating and killing everything is its path. The mushroom started to devour the entire surviving populace, almost as if the mushroom became the stomach, and everyone was in it. With most people dead, or mutated and crazed by the mushroom and environment, Karel arrives to the complex through a crack in the mountain. In this extremely hostile environment, he has to survive, explore the complex and find a way out. Few inside are still a bit sane, and start talking to Karel through pipes and intercoms, that there is a supposed "hidden golden exit", for Hitler himself. Through Karel's help, they will try to rediscover this golden exit, and try to get out.
+
+![Bunker]({{site.baseurl}}/images/bunker/bunker-02.jpg)
+
+## The Environment Creation Pipeline
+
+The team that was supposed to create the environent 
 
 
 
