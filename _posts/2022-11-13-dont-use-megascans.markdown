@@ -2,7 +2,7 @@
 layout: post
 title:  Don't use Megascans.
 description: Prevent yourself from falling into the "Realistic Graphics" pit.
-date:   2018-11-13 15:01:35 +0300
+date:   2022-11-13 15:01:35 +0300
 image:  '/images/owl_mountains_bunker.jpg'
 tags:   [gamedev, comment, hololens]
 ---
@@ -17,8 +17,10 @@ All of a sudden, acquiring realistic models became a lot easier, and so the game
 Megascans were excellent quality assets for the time, since they were scanned in an environment with equalized lighting conditions (among other things). During our development, we jumped on Megascans heads on, since we believed that "the more realistic graphics = more attention and sales" rabbit hole. But soon after we realized what we got ourselves into.
 
 ![Most of assets here were scanned from old factories in Prague.]({{site.baseurl}}/images/owl_mountains_1.jpg "Owl Mountains Bunker")
+*We used photogrammetry to scan a bunker.*
 
 ![We found and scanned an old bunker.]({{site.baseurl}}/images/owl_mountains_bunker.jpg "Owl Mountains Bunker")
+*Photogrammetry was used to scan and create these objects that we found in deserted factory.*
 
 The images above are a few examples of environments that I was working on with our own scans.
 They look great once you look at it from one angle. But his is a computer game goddammit, and the player has to walk around! 
@@ -29,6 +31,11 @@ Anything that was a bit off, just didn't fit with rest of the scene, and this st
 
 Instead of focusing on game mechanics, game pacing, game design, we were just making realistic levels. Instead of prototyping and boxing out level designs, it was more important what actual 3D scan assets we had available. Modelling anything that was missing had to be done by hand, and because it had to look as realistic as the 3D scan assets, it became extremely lengthy process to make one model, and our motivation started sinking. Slowly but surely, 3D scans started deciding on how the levels should look like, feel like, and play like.
 We fell into the 3D scans' asset trap.
+
+
+![We found and scanned an old bunker.]({{site.baseurl}}/images/bunker/owl-mountains-outside-2.jpg "A rock.")
+*Photoscanned rock from a forest. Not all rocks have to look good.*
+
 
 > If one rock looks hyper realistic, everything has to be hyper realistic.
 
