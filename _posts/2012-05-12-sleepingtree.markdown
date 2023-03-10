@@ -2,25 +2,28 @@
 layout: post
 title:  Sleeping Trees Trailer
 description: Recording scenes in Unreal Engine using Vive and motion tracking, and other gimmics.
-date:   2018-11-12 15:01:35 +0300
+date:   2017-07-15 15:01:35 +0300
 image:  '/images/sleepingtrees/sleepingtrees.gif'
-tags:   [gamedev, concept]
+tags:   [gamedev, concept, concept]
 ---
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
+Sleeping Trees is a game concept where we created environment before gameplay mechanics, and when this happens in game development, the project usually fails, and so did this one. We wanted to make a teaser trailer for this concept, attract some attention, we wanted to see if we are choosing the right path, and if the world building alone would attract attention. Being a small indie studio we did not have much of a budget, so we had to cut some corners - though I believe it came out pretty nicely.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
+<p><iframe src="https://www.youtube.com/embed/CNBxhnreamw" frameborder="0" allowfullscreen></iframe></p>
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit potionibus.
+## Little postmortem on the project.
 
-![Lonely house]({{site.baseurl}}/images/602.jpg)
-*Lonely house / [Unsplash](https://unsplash.com/)*
+Creating a trailer like this can take a lot of time and resources for a small team. Sometimes, months can be spent on such a task, instead of actually focusing on the game development itself. I generally believe that this is the wrong way to do this. Fun gameplay with basic graphics should always have priority, than world with pretty graphics with no gameplay. 
 
-Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis. Put in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere.
+This mistake can ultimately kill project very easily. Eventually we used the assets for another project, so the work was not wasted.
 
-<p><iframe src="https://www.youtube.com/embed/JphHw6iU4m8" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/hD5BJWd937s" frameborder="0" allowfullscreen></iframe></p>
 
-Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
 
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
+## How was it done?
+
+- Most of the movement of the character was recorder with HTC Vive, through custom setup directly recorded to Unreal Engine's sequencer.
+- The tracking was directly mapped to UE character. Some of it can be seen here, sorry for the mess on my table! It was a long day. https://www.youtube.com/watch?v=l4KSUjAlzRs
+- Each scene was build specifically for each view.
+
+
+
