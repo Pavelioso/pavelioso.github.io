@@ -1,0 +1,1 @@
+{"rule":"EN_COMPOUNDS","sentence":"^\\QIt doesn't matter how good looking of a trailer you make, no one is going to give a sh*t.\\E$"}
