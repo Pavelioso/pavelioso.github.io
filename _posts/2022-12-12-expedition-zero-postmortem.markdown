@@ -15,7 +15,7 @@ featured: true
 
 [STEAM STORE PAGE](https://store.steampowered.com/app/1247570/Expedition_Zero/)
 
-My biggest gaming project yet. Since I've spent few years making it, it is a shame that the reviews are not that great, and that it didn't sell. So I though, why not have at least a little postmortem, and write down my opinion on what didn't work, and maybe others can learn.
+My biggest gaming project yet. Since I've spent few years making it, it is a shame that the reviews are not that great, and that it didn't sell well. So I thought, why not have at least a little postmortem, and write down my opinion on what didn't work, and maybe others can learn.
 
 > It's not that hard to make games, just put some models in there, make it move, and done, no?
 >
