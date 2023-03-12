@@ -6,6 +6,7 @@ date:   2018-05-16 15:01:35 +0300
 image:  '/images/bunker/bunker-lights2.jpg'
 tags:   [concept, gamedev]
 featured: true
+category: gamedev
 ---
 
 ## It's year 1979,

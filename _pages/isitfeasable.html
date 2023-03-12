@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Is It Feasable
-permalink: /isitfeasable/
+title: Game Dev
+permalink: /gamedev/
 image: '/images/45.jpg'
 ---
 
@@ -13,7 +13,7 @@ image: '/images/45.jpg'
           <div class="row grid">
             {% if site.posts.size > 0 %}
               {% for post in paginator.posts %}
-                {% unless post.tag == gamedev %}
+                {% unless post.category == gamedev %}
                   {% include article-content.html %}
                 {% endunless %}
               {% endfor %}
