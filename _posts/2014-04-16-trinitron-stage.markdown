@@ -22,9 +22,9 @@ I had few ideas, for example also taking semi transparent cloths, placing them b
 
 Therefore, this is what I came up with this:
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-4.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render4.png)
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-3.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render3.png)
 
 I chose a triangular shape because of the ease of fabrication. The triangles fit together, so the fabricators only had to do one piece that repeated itself, and then couple of outside pieces.
 Ease of fabrication and building - check!
@@ -37,7 +37,7 @@ Here is a short video showing it in action - the only video left. The whole ware
 
 One of the more challenging aspects was the LED mapping to blend together with whatever content was projected from projector, but eventually we got it right. Another surprising hiccup was, how many power supplies, and how many LED controllers we needed. There was entire rack of PSUs and controllers, that we cooled with off-the-shelf fans.
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-1.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render1.png)
 
 ![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-1.png)
 

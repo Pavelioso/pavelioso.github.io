@@ -14,4 +14,4 @@ Instead of it laying on my disk, I was thinking that it could help someone.
 
 Here is a short GIF.
 
-![GIF]({{site.baseurl}}/images/icy-tower-basic/icy-tower-basic.gif)
+![GIF]({{site.baseurl}}images\icy-tower-basic\icy_tower-basic.gif)
