@@ -10,7 +10,7 @@ tags:   [VR, gamedev]
 
 ## What is this?
 
-We were approached by a VR company that they want us to create an "Automotive Holodeck", that would be used to present their VR technology. The VR headset had almost 10000 pixels on horizontal axis, so performance was of the utmost importance - basically the "holodeck" had to be realistic, but take as little of horsepower to render. 
+We were approached by a VR headset company that wanted us to create an "Automotive Holodeck", that would be used screen content to present their VR technology. The VR headset had almost 10000 pixels on horizontal axis, so performance was of the utmost importance - basically the "holodeck" had to be realistic, but take as little of horsepower to render. 
 
 
 <div class="gallery-box">
@@ -34,15 +34,17 @@ In the time we were making it, there was no real-time global illumination, and e
 
 ## Challenges
 
-- The model was bought, but it was all polygons were subdivision surfaces, so it had to be manually readjusted, and some parts had to be remodeled. 
+- The model was bought, but all polygons were hi-poly subdivision surfaces - many parts had to be manually readjusted, and some parts had to be remodeled from scratch. 
 
-- All the parts of the car had to be UW unwrapped, so shadows maps will correctly bake in Unreal. This unwrapping had to be done, so the pixel density was roughly equal across all polygons.
+- We couldn't use high to low baking of models, because the car model would be viewed very up close. 
 
-- There was an idea to bake the shadow maps directly in 3Ds Max, so no baking had to be done in Unreal. Though, it proved inefficient when car environment changes - reflections and shadows were off and not accurate. Therefore, some shadow quality was sacrificed, and baked directly in Unreal. 
+- All the high-poly parts of the car had to be UW unwrapped by hand, so shadows maps will correctly bake in Unreal. This unwrapping was done in a way, so the pixel density was roughly equal across all polygons. Before we started this, we tested if Unreal can handle all the polygons - which it could.
 
-- Some parts were interactive (interactivity was done by Leap Motion), so some shadow maps had to be added in to hide seams. 
+- There was an idea to bake the shadow maps directly in 3Ds Max, so no baking had to be done in Unreal. Though, it proved inefficient with car environment changes - reflections and shadows were off and not accurate. Therefore, some shadow quality was sacrificed, and baked directly in Unreal. 
 
-- The floor had no shadow maps at all, instead, the shadow on the floor is faked with Photoshop. That gave us that very smooth shadow, that makes the car truly fit into the scene. 
+- Some parts were interactive (interactivity was done by Leap Motion), so some shadow maps had to be corrected and painted in, in order to hide gaps where the moving model was pivoting inside static model. 
+
+- The floor had no shadow maps at all, instead, the shadow on the floor is faked with Photoshop. That gave us that very smooth shadow, that makes the car truly fit into the scene. Some other shadows were faked as well.
 
 - Materials were modified Unreal Engine Automotive materials. They are usually world mapped, but we converted them to be UWV mapped, so there would be no seams on the car panels.
 
@@ -60,7 +62,7 @@ In the time we were making it, there was no real-time global illumination, and e
 
 ## Performance?
 
-In the end the clients were very happy. The performance was well above 120 FPS (I believe 150 FPS) on almost 4k screen per eye (so 2x 4k), on GTX 1080. Fake it till you make it!
+In the end the clients were very happy. The performance was well above 120 FPS (I believe 150 FPS) on almost 4k screen per eye (so 2x 4k), on GTX 1080.
 
 <div class="gallery-box">
   <div class="gallery">

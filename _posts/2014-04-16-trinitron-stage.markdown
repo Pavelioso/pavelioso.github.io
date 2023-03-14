@@ -8,9 +8,9 @@ tags:   [concept, events]
 ---
 I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
 
-Anyway, there was an event space (doubling also as a creative office), where some evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something rememberable.
+Anyway, there was an event space (doubling also as a creative office), during few evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something rememberable, that we could eventually use for other events aswell. 
 
-One problem - it had to be cheap to build, and most importantly: easy to build. 
+One problem - it had to be cheap to build, and most importantly: easy to build and fabricate. 
 
 Features we wanted:
 - Ease of fabrication and building
@@ -29,13 +29,13 @@ Therefore, this is what I came up with this:
 I chose a triangular shape because of the ease of fabrication. The triangles fit together, so the fabricators only had to do one piece that repeated itself, and then couple of outside pieces.
 Ease of fabrication and building - check!
 
-To support the integrity of each piece, and eventually the whole backdrop, the triangles were made from plastic transparent PVC pipes. In which, LED strips were put into, and connected to other adjacent triangles. The PVC pipes were connected by simple L shaped connectors used for water pipes. 
+To support the integrity of each piece, and eventually the whole backdrop, the triangles were made from plastic transparent PVC pipes. In which, LED strips were put into, and connected to other adjacent triangles. The PVC pipes were connected by simple L shaped connectors used in plumbing. 
 
-Here is a short video showing it in action - the only video left. The whole warehouse burned to the ground (we were all safe). 
+Here is a short video showing it in action - the only video left. The whole warehouse burned to the ground (we were all safe), photo is at the end of this post. 
 
 <p><iframe src="https://www.youtube.com/embed/9_uENoBGMuM" frameborder="0" allowfullscreen></iframe></p>
 
-One of the more challenging aspects was the LED mapping to blend together with whatever content was projected from projector, but eventually we got it right. Another surprising hiccup was, how many power supplies, and how many LED controllers we needed. There was entire rack of PSUs and controllers, that we cooled with off-the-shelf fans.
+One of the more challenging aspects was the LED mapping to blend together with whatever content was projected from projector, but eventually we got it right. A surprising hiccup was, how many power supplies, and how many LED controllers we needed. There was entire rack of PSUs and controllers hidden behind the stage, that we cooled with off-the-shelf fans.
 
 ![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render1.png)
 

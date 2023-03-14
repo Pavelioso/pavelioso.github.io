@@ -16,7 +16,7 @@ Our hero realizes quite soon, that this prison is build in middle of nowhere. Wh
 
 ## Gameplay 
 
-The gameplay was design around top-down stealth mechanics, with heavy story elements. Each day the player had to return to the prison, so prison was the central piece of the map design. After certain period, the player would decide to "escape", which would trigger another act of the game, where he would be able to get out of a valley, by any means necessary.
+The gameplay was designed around top-down stealth mechanics, with heavy story elements. Each day the player had to return to the prison, so prison was the central piece of the map design. After certain period, the player would decide to "escape", which would trigger another act of the game, where he would be able to get out of a valley, by any means necessary... 
 
 <p><iframe src="https://www.youtube.com/embed/J2Il2zkY94U" frameborder="0" allowfullscreen></iframe></p>
 
