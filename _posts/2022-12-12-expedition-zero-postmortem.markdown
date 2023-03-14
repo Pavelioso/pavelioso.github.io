@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Expedition Zero - Postmortem
+title:  My First Indie - Expedition Zero - Postmortem
 description: A little step back to look at developement of my first indie game.
 date:   2022-12-12 18:05:55 +0300
 image:  '/images/ez/expeditionzero-keyart-nologo.png'
