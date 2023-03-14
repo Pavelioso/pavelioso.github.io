@@ -22,13 +22,13 @@ I've started projects, studio and companies. Furthermore, I communicate with cli
 
 I started off as a 3D generalist and eventually found my way to the video mapping industry, where I had many roles, such as a project manager, designer, concept artist, and programmer. Usually I had to find very creative ways to get task done quickly and originally with great quality output, which was a great source of experience.
 
-<!-- <div class="gallery-box">
+<div class="gallery-box">
   <div class="gallery">
     <img src="/images/about/about-1.jpg">
     <!-- <img src="/images/about/about-3.jpg"> -->
   </div>
   <em>A little bit of myself.</a></em>
-</div> -->
+</div>
 
 Afterwards, I spent some time working on VR projects for clients, which was a really exciting and innovative field to be a part of. Though then I discovered my next challenge - game development. I spent a solid 8 years in game development, learning the ins and outs of 3D modeling, programming, audio design, and game design. I released one indie game.
 
