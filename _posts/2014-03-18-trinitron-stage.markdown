@@ -6,21 +6,45 @@ date:   2018-04-21 15:01:35 +0300
 image:  '/images/trinitron-stage/trinitron-render3.png'
 tags:   [concept, events]
 ---
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
+I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
+Anyway, there was an event space (doubling also as a creative office), where some evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something rememberable.
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit potionibus.
+One problem - it had to be cheap to build, and most importantly: easy to build. 
 
-![Fresh vegetables]({{site.baseurl}}/images/615.jpg)
-*Fresh vegetables / [Unsplash](https://unsplash.com/)*
+Features we wanted:
+- Ease of fabrication and building
+- Easy video mapping with projectors. 
+- LED strips mapped to 2D matrix so LEDs colors would follow whatever projector is beaming. 
+- Panels had to be white and reflective for projection. 
 
-Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis. Put in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere.
+I had few ideas, for example also taking semi transparent cloths, placing them behind each other, and use a projection mapping content for 3D effects. It works, but the projector had to be far away from the stae, in order to widen the projector's beaming flustrum on the first line of sheets - to really sell the effect. Which wasn't possible. Also my boss wasn't particulary fan of the idea. 
 
-<p><iframe src="https://www.youtube.com/embed/CB9Enh6yP0w" frameborder="0" allowfullscreen></iframe></p>
+Therefore I came up with this:
 
-Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-4.jpg)
 
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-3.jpg)
+
+I chose a triangular shape because of the ease of fabrication. The triangles fit together, so the fabricators only had to do one piece that repeated itself, and then couple of outside pieces.
+Ease of fabrication and building - check!
+
+To support the integrity of each piece, and eventually the whole backdrop, the triangles were made from plastic transparent PVC pipes. In which, LED strips were put into, and connected to other adjacent triangles. The PVC pipes were connected by simple L shaped connectors used for water pipes. 
+
+Here is a short video showing it in action - the only video left. The whole warehouse burned to the ground (we were all safe). 
+
+<p><iframe src="https://www.youtube.com/embed/9_uENoBGMuM" frameborder="0" allowfullscreen></iframe></p>
+
+One of the more challenging aspects was the LED mapping to blend together with whatever content was projected from projector, but eventually we got it right. Another surprising hiccup was, how many power supplies, and how many LED controllers we needed. There was entire rack of PSUs and controllers, that we cooled with off-the-shelf fans.
+
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render-1.jpg)
+
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-1.png)
+
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-2.png)
+
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-3.png)
+
+And here is its final form after a warehouse fire. We weren't happy to say the least.
+
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-burn-1.jpg)

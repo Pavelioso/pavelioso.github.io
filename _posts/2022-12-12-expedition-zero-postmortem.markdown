@@ -74,7 +74,7 @@ Those are just a few examples about a light switch. But this also has to be done
 At one point of testing it will be very important to have as many tools prepared to be able to test a game mechanic properly. This, in our case was often overlooked, and was added in later, which would have eased our testing exponentially. This also includes saving - it is very important to be able to save game as soon as possible, so as a developer, you can resume from whichever point in game, and test whatever needs to be tested. 
 Therefore, when we code, we automatically create ways to be able to call functions or change different values dynamically from a widget that can be called "Developer's Console". Developer console can have many tabs, such as weather, character, spawning, etc. I cannot stress enough how much easier it is to test and balance game mechanics when this is prepared.
 
-![GIF]({{site.baseurl}}/images/ez/monster_fight_2.gif)
+![GIF]({{site.baseurl}}/images/ez/monster_fight2.gif)
 
 ## Keep Documentation
 
