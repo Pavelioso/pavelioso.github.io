@@ -10,10 +10,10 @@ A friend of mine was building an underground club / bar, and he wanted something
 
 The modelling was done in Cinema 4D, all the textures were box mapped shaders, and Octane Render with triple GTX 1080s was used to render. Then, all the post production was finished in Photoshop.
 
-![Bunker]({{site.baseurl}}/images/bar-concept/bar-concept-1.jpg)
+![club]({{site.baseurl}}/images/bar-concept/bar-concept-1.jpg)
 
-![Bunker]({{site.baseurl}}/images/bar-concept/bar-concept-2.jpg)
+![club]({{site.baseurl}}/images/bar-concept/bar-concept-2.jpg)
 
-![Bunker]({{site.baseurl}}/images/bar-concept/bar-concept-3.jpg)
+![club]({{site.baseurl}}/images/bar-concept/bar-concept-3.jpg)
 
 
