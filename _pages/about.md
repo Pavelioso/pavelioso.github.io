@@ -27,7 +27,7 @@ I started off as a 3D generalist and eventually found my way to the video mappin
     <img src="/images/about/about-1.jpg">
     <!-- <img src="/images/about/about-3.jpg"> -->
   </div>
-  <em>A little bit of myself.</a></em>
+  <em>A little bit of myself.</em>
 </div>
 
 Afterwards, I spent some time working on VR projects for clients, which was a really exciting and innovative field to be a part of. Though then I discovered my next challenge - game development. I spent a solid 8 years in game development, learning the ins and outs of 3D modeling, programming, audio design, and game design. I released one indie game.
