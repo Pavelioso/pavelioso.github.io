@@ -2,7 +2,7 @@
 layout: post
 title:  TRINITRON Stage 
 description: Went a little crazy with this one - designed a stage with LED strips and custom touchscreen control panel.
-date:   2018-04-21 15:01:35 +0300
+date:   2014-04-16 15:01:35 +0300
 image:  '/images/trinitron-stage/trinitron-render3.png'
 tags:   [concept, events]
 ---

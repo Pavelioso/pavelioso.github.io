@@ -2,7 +2,7 @@
 layout: post
 title:  Facebook F8 Realtime Visuals
 description: A crazy realtime event responsive mapping for Facebook's F8 conference.
-date:   2018-10-31 15:01:35 +0300
+date:   2014-04-30 15:01:35 +0300
 image:  '/images/f8/f8-photo-1.jpg'
 tags:   [events, videomapping]
 featured: true

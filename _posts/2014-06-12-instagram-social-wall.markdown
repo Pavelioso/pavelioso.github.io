@@ -2,7 +2,7 @@
 layout: post
 title:  Instagram Art Basel Social Wall
 description: People could hashtag their pictures in Instagram to show it on this wall - of course they did not send nude pics.
-date:   2018-11-12 15:01:35 +0300
+date:   2014-06-12 15:01:35 +0300
 image:  '/images/instagram/instagram-photo-1.jpg'
 tags:   [events, videomapping]
 ---
