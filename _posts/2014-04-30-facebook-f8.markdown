@@ -23,11 +23,15 @@ So cool things about it:
 
 ![stage]({{site.baseurl}}\images\f8\f8-photo-2.jpg)
 
+Sorry for the video quality!
+<p><iframe src="https://www.youtube.com/embed/J-hW5ROp9M4" frameborder="0" allowfullscreen></iframe></p>
+
+
 <div class="gallery-box">
   <div class="gallery">
-    <img src="images\f8\f8-production1.jpg">
-    <img src="images\f8\f8-production2.jpg">
-    <img src="images\f8\f8-people-1.jpg">
+    <img src="/images/f8/f8-production1.jpg">
+    <img src="/images/f8/f8-production2.jpg">
+    <img src="/images/f8/f8-people-1.jpg">
     
   </div>
   <em>Some behind the scenes.</em>
