@@ -6,21 +6,33 @@ date:   2014-06-12 15:01:35 +0300
 image:  '/images/instagram/instagram-photo-1.jpg'
 tags:   [events, videomapping]
 ---
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
+## What is this?
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit potionibus.
+A project for Instagram in Hong Kong, during a contemporary art convention "Art Basel". I've never really understood contemporary art, it always felt more like money laundering or tax evasion than anything else, but hey maybe I am missing something. Though, when I saw charred Nokia 3310 in a glass box, sold as piece of art for $20000 USD, I was a bit sketched out. 
 
-![Lonely house]({{site.baseurl}}/images/602.jpg)
-*Lonely house / [Unsplash](https://unsplash.com/)*
+Instagram wanted a wall, where they would promote their brand, by showing any pictures that were tagged with #artbasel and #instagram hashtags. These photos would then appear on the wall, attracting the visitors, therefore promoting the brand.
 
-Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis. Put in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere.
+![wall]({{site.baseurl}}/instagram/instagram-photo-2.jpg)
 
-<p><iframe src="https://www.youtube.com/embed/JphHw6iU4m8" frameborder="0" allowfullscreen></iframe></p>
+## The Challenges
 
-Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
+There were quite a few surprising challenges, which, as always, shown themselves during the production. Because of extremely short deadline, we had to cut a lot of corners, and produce it in a way that wasn't exactly efficient. The whole thing could have been coded probably on the web (which was slow), but we didn't have time for that, so it was done in Touch Designer.
 
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
+![wall]({{site.baseurl}}/instagram/instagram-photo-1.jpg)
+
+So here are few challenges that surprised us:
+
+- We had to create a web based moderation system, where a real person was sitting and "accepting" or "declining" photos from Instagram. You'd be surprised how many people, even on an event like this, send pictures of their private parts, or anything related to the act of "I am drunk, so I must be funny".
+
+- Web browsers aren't fast when running on 12 screens. Manipulation photos in real-time is hardware intensive.
+
+- Hong Kong is extremely warm, so we had to quickly buy fans in the markets to cool down the entire box from the inside where the hardware was housed in.
+
+- An event venue of this size had no internet connection ports. We had to use 4G modems to communicate with everything, which caused problem since sometimes the modem's IP changed (when it lost connection, turned off...), which was basically all the time, so we had to monitor physically during the whole event that nothing gets disconnected.
+
+- Hong Kong is very humid and warm outside, but all interiors are with AC. All of us got sick from the differences of temperature.
+
+<p><iframe src="https://www.youtube.com/embed/BCXLWvrWLHE" frameborder="0" allowfullscreen></iframe></p>
+
+## Thanks for checking out this post!
