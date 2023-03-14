@@ -7,21 +7,30 @@ image:  '/images/f8/f8-photo-1.jpg'
 tags:   [events, videomapping]
 featured: true
 ---
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
+When Facebook had an F8 conference, I was tasked with creating various content for a 60 meter long installation, mounted to the ceiling of lounge area of the venue. 
+It was huge, the photos don't give it justice. We used 8 projectors, with brightness of 40k lumen (home projectors have for example around 2500 lumen). To say the least, no expense was spared, and it was a really interesting project to be part of.
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit potionibus.
+So cool things about it:
+- 8x 40k projectors, with 4k resolution. 
+- Laser (optical) video cables from media server to projectors were used, so projector blending wouldn't be disturbed (the projector outputs on the installation are blended together with a gradient, so the projection area can be larger - if the projectors are too apart, HDMI cables cannot be used without repeaters, and they have delay - the blending breaks on large installations, therefore speed of light (optical video cables) needs to be used instead.)
 
-![Alone with myself]({{site.baseurl}}/images/612.jpg)
-*Alone with myself / [Unsplash](https://unsplash.com/)*
 
-Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis. Put in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere.
+![stage]({{site.baseurl}}\images\f8\f8-pano-1.jpg)
 
-<p><iframe src="https://www.youtube.com/embed/Z9CsuNMdvLg" frameborder="0" allowfullscreen></iframe></p>
+- The effects were connected to Facebook's API, and RFID chips of the visitors. Meaning, if someone new came, their profile picture was downloaded, and added to the visuals of the installation. The same was with where people were from, type of attendees, etc.
+- The primary media server's actions was copied to a duplicate secondary, in case the primary failed.
 
-Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
+![stage]({{site.baseurl}}\images\f8\f8-photo-2.jpg)
 
-Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="images\f8\f8-production1.jpg">
+    <img src="images\f8\f8-production2.jpg">
+    <img src="images\f8\f8-people-1.jpg">
+    
+  </div>
+  <em>Some behind the scenes.</em>
+</div>
+
+
