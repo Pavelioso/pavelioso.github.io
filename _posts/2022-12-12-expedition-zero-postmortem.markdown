@@ -33,7 +33,7 @@ Here are my thoughts that I would relay to any other game dev.
 
 ## Have fun gameplay mechanic first.
 
-It doesn't matter if your game is going to have top notch graphics. It doesn't matter how good looking of a trailer you make, no one is going to give a sh*t. You need gameplay mechanics and gameplay trailers, so it looks fun to play. Gamers want to play, not to watch a movie, they can go to Netflix for that. Most of successful developers that I have seen post short videos on twitter or youtube with mechanics that differentiate their game from any other game that gets released on Steam. There is more than 300 games getting released on Steam a month, and with free availability of tools like Unreal, there is going to be more. Everybody wants to be gamedev right?
+It doesn't matter if your game is going to have top notch graphics. It doesn't matter how good looking of a trailer you make. One of the main learnigns from me is that you need gameplay mechanics that are fun to play. Gamers want to play! Most of successful developers that I have seen post short videos on twitter or youtube with mechanics that differentiate their game from any other game that gets released on Steam. There is more than 300 games getting released on Steam a month, and with free availability of tools like Unreal, there is going to be more. Everybody wants to be gamedev right?
 That being said, starting with the core mechanic of a game is the most important rule I can ever give to anyone. Start with white level, block out some shapes, and get going on the stuff that's going to make the game fun.
 Here, I will give few examples.
 
