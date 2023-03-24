@@ -11,9 +11,10 @@ tags:   [flutter, programming]
 
 After game development I have a bit of an urge to really go into coding. Something that I can build logic with, but also, so it's something that I can build as an app. I like user interfaces too, soo...
 I am learning Flutter!
-I was missing a tool to view CSV benchmark data for (Frameview software from nVidia)[https://www.nvidia.com/cs-cz/geforce/technologies/frameview/]. So I built one.
+Furthermore, I was missing a tool to view CSV benchmark data for (Frameview software from nVidia)[https://www.nvidia.com/cs-cz/geforce/technologies/frameview/]. So I built one.
 
-## (FRAMEVIEWER)[https://frameviewer-d74b1.web.app/#/]
+## [FRAMEVIEWER](https://frameviewer-d74b1.web.app/#/)
+
 
 
 ## What I wanted to learn:
@@ -25,6 +26,8 @@ I was missing a tool to view CSV benchmark data for (Frameview software from nVi
 - Making data ready to be displayed as a chart. 
 
 - How to host app on Firebase.
+
+
 
 ## What is next?
 
