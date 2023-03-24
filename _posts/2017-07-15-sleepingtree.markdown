@@ -4,7 +4,7 @@ title:  Sleeping Trees Trailer
 description: Recording scenes in Unreal Engine using Vive and motion tracking, and other gimmics.
 date:   2017-07-15 15:01:35 +0300
 image:  '/images/sleepingtrees/sleepingtrees.gif'
-tags:   [gamedev, concept, concept]
+tags:   [gamedev, concept]
 ---
 Sleeping Trees is a game concept where we created environment before gameplay mechanics, and when this happens in game development, the project usually fails, and so did this one. We wanted to make a teaser trailer for this concept, attract some attention, we wanted to see if we are choosing the right path, and if the world building alone would attract any players. Being a small indie studio we did not have much of a budget, so we had to cut some corners - though I believe it came out pretty nicely.
 
