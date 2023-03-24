@@ -4,7 +4,7 @@ title:  OWL MOUNTAINS - Art Direction and Game World Concept
 description: Check out a concept for a game world, complete with art direction.
 date:   2018-05-16 15:01:35 +0300
 image:  '/images/bunker/bunker-lights2.jpg'
-tags:   [concept, gamedev]
+tags:   [concept, gamedev, thoughts]
 featured: true
 category: gamedev
 ---

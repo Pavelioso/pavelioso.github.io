@@ -10,15 +10,15 @@ url: "http://nonode.dev" # The base hostname & protocol for your site, e.g. http
 #-------------------------------
 # Author Settings
 author:
-  name: Pavel Necas
+  name: Pavel Nečas
   avatar: '/images/about/about-1.jpg'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: Pavel Necas
-  description: My projects, thoughts, and R&D.
+  title: Pavel Nečas
+  description: Unreal Developer and Generalist, Problem Solver, Programmer. Welcome!
   image: '/images/backgrounds/bg-1.jpg'
 
 

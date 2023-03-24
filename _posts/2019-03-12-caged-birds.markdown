@@ -4,7 +4,7 @@ title:  The Caged Birds Game Concept
 description: An escape from a gulag simulator.
 date:   2019-03-12 15:01:35 +0300
 image:  '/images/caged-birds/cagedbirds.gif'
-tags:   [gamedev, concept, concept]
+tags:   [gamedev, concept, thoughts]
 ---
 The Caged Birds is a satire escape from a gulag game concept, where the player has to sneak out to surrounding villages, steal, trade with other prisoners, solve mysteries and survive.
 
