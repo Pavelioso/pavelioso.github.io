@@ -55,9 +55,9 @@ With most people dead, or mutated and crazed by the mushroom and the environment
     <img src="/images/bunker/bunker-03.jpg">
     <img src="/images/bunker/bunker-04.jpg">
     <img src="/images/bunker/bunker-05.jpg">
-    <img src="/images/bunker/bunker-06.png">
-    <img src="/images/bunker/bunker-07.png">
-    <img src="/images/bunker/bunker-09.png">
+    <img src="/images/bunker/bunker-06.jpg">
+    <img src="/images/bunker/bunker-07.jpg">
+    <img src="/images/bunker/bunker-09.jpg">
     <img src="/images/bunker/bunker-10.jpg">   
   </div>
 </div>

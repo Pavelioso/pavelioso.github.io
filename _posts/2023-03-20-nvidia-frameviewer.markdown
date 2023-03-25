@@ -3,7 +3,7 @@ layout: post
 title:  Flutter Web App - Frameviewer
 description: An app for nVidia Frameviewer benchmarking software. They don't have any software to view CSV files, co this is my take on it.
 date:   2023-03-20 15:01:35 +0300
-image:  '/images/frameviewer/frameviewer1.png'
+image:  '/images/frameviewer/frameviewer1.jpg'
 tags:   [flutter, programming]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  TRINITRON Stage 
 description: Went a little crazy with this one - designed a stage with LED strips and custom touchscreen control panel.
 date:   2014-04-16 15:01:35 +0300
-image:  '/images/trinitron-stage/trinitron-render3.png'
+image:  '/images/trinitron-stage/trinitron-render3.jpg'
 tags:   [concept, events]
 ---
 I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
@@ -22,9 +22,9 @@ I had few ideas, for example also taking semi transparent cloths, placing them b
 
 Therefore, this is what I came up with this:
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render4.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render4.jpg)
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render3.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render3.jpg)
 
 I chose a triangular shape because of the ease of fabrication. The triangles fit together, so the fabricators only had to do one piece that repeated itself, and then couple of outside pieces.
 Ease of fabrication and building - check!
@@ -37,13 +37,13 @@ Here is a short video showing it in action - the only video left. The whole ware
 
 One of the more challenging aspects was the LED mapping to blend together with whatever content was projected from projector, but eventually we got it right. A surprising hiccup was, how many power supplies, and how many LED controllers we needed. There was entire rack of PSUs and controllers hidden behind the stage, that we cooled with off-the-shelf fans.
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render1.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-render1.jpg)
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-1.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-1.jpg)
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-2.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-2.jpg)
 
-![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-3.png)
+![stage]({{site.baseurl}}/images/trinitron-stage/trinitron-stage-concept-3.jpg)
 
 And here is its final form after a warehouse fire. We weren't happy to say the least.
 
