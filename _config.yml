@@ -18,7 +18,10 @@ author:
 # Hero Settings
 hero:
   title: Pavel Nečas
-  description: Unreal Developer and Generalist, Problem Solver, Programmer. Welcome!
+  description: > 
+    Unreal Developer and Generalist, Problem Solver, Programmer. Welcome! 
+    Place where I post my projects. Some large, some small. 
+    My Discord is Pavelios 4451. 
   image: '/images/backgrounds/bg-1.jpg'
 
 
@@ -26,7 +29,7 @@ hero:
 # Contact Settings
 contact:
   email: f/xpzelroq # Add your email for contact form
-  description: Because of spam bots, please send me message through here and I will get back to asap! Or you can use this pavel (at & at) nonode . dev .  # Add a description of your form
+  description: Because of spam bots, please send me message through here and I will get back to asap! Or you can use this pavel (at & at) nonode . dev . My Discord is Pavelios 4451.  # Add a description of your form
 
 # NOTE
 # Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
