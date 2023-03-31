@@ -3,12 +3,13 @@ layout: post
 title:  My First Indie - Expedition Zero - Postmortem
 description: A little step back to look at developement of my first indie game.
 date:   2022-12-12 18:05:55 +0300
-image:  '/images/ez/ez1.webp'
+image:  '/images/ez/ez1_low.webm'
+fallback_image: '/images/ez/ez1_fallback.jpg'
 tags:   [gamedev, thoughts]
 featured: true
 ---
 
-
+![]({{site.baseurl}}/images/ez/expeditionzero-keyart-nologo "")
 
 
 <p><iframe src="https://www.youtube.com/embed/OHhpW-nZVms" frameborder="0" allowfullscreen></iframe></p>
@@ -29,7 +30,7 @@ We started developing this few years back, and we went through multiple concepts
 
 Here are my thoughts that I would relay to any other game dev.
 
-![GIF]({{site.baseurl}}/images/ez/EZ_gif_1.gif)
+![GIF]({{site.baseurl}}/images/ez/ez1.webm)
 
 ## Have fun gameplay mechanic first.
 
@@ -50,7 +51,7 @@ One of the most challenging games I've seen to create. To balance out survival s
 - Create comprehensive game panel from which the game can be controlled and different systems and values can be triggered (trigger wind, temperature, change value of hunger, sleepiness) so during gameplay another developer can act as a "dungeon master". 
 - Test on the map, adjust and test.
 
-![GIF]({{site.baseurl}}/images/ez/EZ_gif_2.gif)
+![GIF]({{site.baseurl}}/images/ez/forest_gun.gif)
 
 ## Prepare Project's Architecture
 
@@ -67,7 +68,7 @@ Maybe:
 
 Those are just a few examples about a light switch. But this also has to be done with character, levels, secondary systems, etc.
 
-![GIF]({{site.baseurl}}/images/ez/forest_gun.gif)
+
 
 ## Developer's Console and Ability to Save Game as Developer
 
