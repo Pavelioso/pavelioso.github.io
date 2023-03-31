@@ -9,7 +9,8 @@ tags:   [gamedev, thoughts]
 featured: true
 ---
 
-({{site.baseurl}}/images/ez/expeditionzero-keyart-nologo.jpg)
+
+![Art]({{site.baseurl}}/images/ez/expeditionzero-keyart-nologo.jpg)
 
 
 <!-- <p><iframe src="https://www.youtube.com/embed/OHhpW-nZVms" frameborder="0" allowfullscreen></iframe></p> -->
@@ -18,7 +19,12 @@ featured: true
 
 My biggest game dev project yet. Since I've spent few years making it, it is a shame that the reviews are not that great, and that it didn't sell well. So I thought, why not have at least a little postmortem, and write down my opinion on what didn't work, and maybe others can learn.
 
-![VID]({{site.baseurl}}/images/ez/EZ_movie480_vp9.webm)
+
+<video autoplay="autoplay" loop="loop" width="800" height="480">
+  <!-- <source src="/assets/images/lorenz.mp4" type="video/mp4"> -->
+  <source src="/assets/images/EZ_movie480_vp9.webm" type="video/webm">
+</video>
+
 
 > It's not that hard to make games, just put some models in there, make it move, and done, no?
 >
@@ -32,7 +38,7 @@ We started developing this few years back, and we went through multiple concepts
 
 Here are my thoughts that I would relay to any other game dev.
 
-![GIF]({{site.baseurl}}/images/ez/ez1.webm)
+![GIF]({{site.baseurl}}/images/ez/ez1.webp)
 
 ## Have fun gameplay mechanic first.
 
