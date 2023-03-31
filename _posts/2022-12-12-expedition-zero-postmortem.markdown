@@ -9,10 +9,10 @@ tags:   [gamedev, thoughts]
 featured: true
 ---
 
-![]({{site.baseurl}}/images/ez/expeditionzero-keyart-nologo "")
+({{site.baseurl}}/images/ez/expeditionzero-keyart-nologo.jpg)
 
 
-<p><iframe src="https://www.youtube.com/embed/OHhpW-nZVms" frameborder="0" allowfullscreen></iframe></p>
+<!-- <p><iframe src="https://www.youtube.com/embed/OHhpW-nZVms" frameborder="0" allowfullscreen></iframe></p> -->
 
 [STEAM STORE PAGE](https://store.steampowered.com/app/1247570/Expedition_Zero/)
 
