@@ -18,6 +18,8 @@ featured: true
 
 My biggest game dev project yet. Since I've spent few years making it, it is a shame that the reviews are not that great, and that it didn't sell well. So I thought, why not have at least a little postmortem, and write down my opinion on what didn't work, and maybe others can learn.
 
+![VID]({{site.baseurl}}/images/ez/EZ_movie480_vp9.webm)
+
 > It's not that hard to make games, just put some models in there, make it move, and done, no?
 >
 > <cite>Me at 22 years old</cite>
