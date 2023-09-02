@@ -1,0 +1,72 @@
+---
+layout: post
+title:  Fortnite Racing Mod for American Cancer Society
+description: A fundraising Fortnite Island for Carper Creative and ACS
+date:   2023-06-18 15:01:35 +0300
+image:  '/images/fortnite/acs_cut.webp'
+fallback_image: '/images/fortnite/acs_fallback.jpg'
+tags:   [gamedesign, leveldesign]
+---
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/fortnite/level_1.jpg">
+    <img src="/images/fortnite/level_2.jpg">
+    <img src="/images/fortnite/level_3.jpg">
+    <img src="/images/fortnite/level_4.jpg">
+     
+  </div>
+</div>
+
+
+## Creating a mod in UEFN. Great new challenge that isn't as easy at it seems.
+
+
+
+I was approached by a prominent agency Carper Creative to design and develop a mod for Fortnite. The mod's purpose was to raise money for American Cancer Society, and the mod's gameplay challenge was to pick up passengers around a map, use jumps and hidden paths, and bring them back to central drop-off point to gain points, while competing with other players.
+
+div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/fortnite/Map_Concept_1.jpg">
+    <img src="/images/fortnite/Map_Concept_2.jpg">
+  </div>
+</div>
+
+I went through multiple game design variations, how to do such gameplay with pretty limited tools that are in Fortnite for Unreal. More of a classic approach was selected, where players have a countdown to complete the challenge, while passengers that are having the most points are the furthest away from the drop-off point - giving is nice risk and reward balance.
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/fortnite/level_5.jpg">
+    <img src="/images/fortnite/level_6.jpg">
+    <img src="/images/fortnite/level_7.jpg">
+  </div>
+</div>
+
+## My main takeaways:
+
+- UEFN is locked down when it comes to adding content. Adding custom characters or cars is not supported. Custom meshes can be added. 
+
+- Memory lock to 100k. We had to redesign the map 3x, using different assets, to try to fit into this memory lock.
+
+- Memory is not visible in UEFN - It is only in Fortnite. Sometimes it takes 10 minutes to launch the mod from UEFN to test the memory allocation.
+
+- Blueprints do not have any functionality as in Unreal, they are more as a "bucket" where to store multiple models.
+
+- UEFN is designed for small levels. Big issue for us was that our Island had multiple town parts that had different designs, that meant different models, which in turn increased memory requirement. If one needs to design large map, there should be small "towns" far away from another, pretty much as Fortnite was designed.
+
+- It is better to work with the tools that Fortnite provides, and design a game around that. The Verse coding language is hard to iterate with, and lacks functionality, in time of writing this article. Each test of code takes at least 10 minutes because one has to launch Fortnite from UEFN every time to do so.
+
+- Use own repository solution, such as Github, and create a good .gitignore. Epics built in repository is very slow to upload or download from (sometimes it took hours).
+
+- Use custom barebone models as much as possible - Built in models has all the functionality (breaking, building, etc), they take a lot of memory.
+
+- Try to design most of the game in Fortnite directly, not in UEFN. Use UEFN only as a model placer.
+
+## Here is a short gameplay cut.
+
+<p><iframe src="https://youtu.be/hbcG3fnJ7a8" frameborder="0" allowfullscreen></iframe></p>
+
+
+
+
+
