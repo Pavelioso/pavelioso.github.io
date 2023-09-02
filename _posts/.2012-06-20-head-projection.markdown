@@ -5,6 +5,7 @@ description: A school project where we projected some party visuals on a head in
 date:   2014-04-16 15:01:35 +0300
 image:  '/images/trinitron-stage/trinitron-render3.jpg'
 tags:   [concept, events]
+published: false
 ---
 I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
 
