@@ -8,15 +8,15 @@ fallback_image: '/images/fortnite/acs_fallback.jpg'
 tags:   [gamedesign, leveldesign]
 ---
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/fortnite/level_1.jpg">
+![stage]({{site.baseurl}}/images/fortnite/level_1.jpg)
+
+
+<div class="gallery">
     <img src="/images/fortnite/level_2.jpg">
     <img src="/images/fortnite/level_3.jpg">
-    <img src="/images/fortnite/level_4.jpg">
-     
-  </div>
+    <img src="/images/fortnite/level_4.jpg">     
 </div>
+
 
 
 ## Creating a mod in UEFN. Great new challenge that isn't as easy at it seems.
@@ -64,7 +64,7 @@ I went through multiple game design variations, how to do such gameplay with pre
 
 ## Here is a short gameplay cut.
 
-<p><iframe src="https://youtu.be/hbcG3fnJ7a8" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/hbcG3fnJ7a8" frameborder="0" allowfullscreen></iframe></p>
 
 
 
