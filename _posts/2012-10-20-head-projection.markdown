@@ -9,5 +9,4 @@ tags:   [installation]
 School 24H project where we mapped a sculpture of a head in a park.
 
 
-<p><iframe src="https://youtu.be/p1eErUNdgTI" frameborder="0" allowfullscreen></iframe></p>
-
+<p><iframe src="https://www.youtube.com/embed/p1eErUNdgTI" frameborder="0" allowfullscreen></iframe></p>
