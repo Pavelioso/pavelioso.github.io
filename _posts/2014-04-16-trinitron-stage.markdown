@@ -10,7 +10,7 @@ I don't know why I've called it Trinitron, I guess triangle = trinity, and when 
 
 Anyway, there was an event space (doubling also as a creative office), during few evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something rememberable, that we could eventually use for other events aswell.
 
-![GIF]({{site.baseurl}}/images/trinitron-stage/stage_vid1.webm)
+
 
 One problem - it had to be cheap to build, and most importantly: easy to build and fabricate. 
 
