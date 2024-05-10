@@ -3,12 +3,14 @@ layout: post
 title:  Fortnite Racing Mod for American Cancer Society
 description: A fundraising Fortnite Island for Carper Creative and ACS
 date:   2023-06-18 15:01:35 +0300
-image:  '/images/fortnite/acs_cut.webp'
+image:  '/images/fortnite/fortnite_thumb.webp'
 fallback_image: '/images/fortnite/acs_fallback.jpg'
 tags:   [gamedesign, leveldesign]
 ---
 
 ![stage]({{site.baseurl}}/images/fortnite/level_1.jpg)
+
+<p><iframe src="https://www.youtube.com/embed/p4lCJuNvgi8" frameborder="0" allowfullscreen></iframe></p>
 
 
 <div class="gallery">
