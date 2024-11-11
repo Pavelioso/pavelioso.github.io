@@ -24,6 +24,16 @@ hero:
     My Discord is Pavelios 4451. 
   image: '/images/backgrounds/bg-1.jpg'
 
+#-------------------------------
+# Gamedev Section Settings
+gamedev:
+  title: My Gamedev Journey
+  description: > 
+    Game Producer and Unreal Generalist, Problem Solver, Immersive Experiences Creator. Welcome! 
+    Place where I post my ideas and projects. Some large, some small. 
+    My Discord is Pavelios 4451. 
+
+
 
 #-------------------------------
 # Contact Settings
