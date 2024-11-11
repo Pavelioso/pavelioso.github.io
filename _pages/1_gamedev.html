@@ -42,9 +42,7 @@ permalink: /gamedev/
           {% assign filtered_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
           {% if filtered_posts.size > 0 %}
             {% for post in filtered_posts %}
-              {% unless post.featured == true %}
-                {% include article-content.html %}
-              {% endunless %}
+              {% include article-content.html %}
             {% endfor %}
           {% else %}
             <p>No posts found with the tag "{{ page.tag }}"</p>
@@ -54,5 +52,6 @@ permalink: /gamedev/
     </div>
   </div>
 </div>
+
 
 {% include pagination.html %}
