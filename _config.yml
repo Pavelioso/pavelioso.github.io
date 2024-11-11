@@ -40,7 +40,7 @@ events:
 
 #-------------------------------
 # Industrial Design Settings
-gamedev:
+industrialdesign:
   title: Industrial Design
   description: > 
     I was tasked multiple times to create designs that are beatiful but also functional. This hobby turned to something that could be used 
