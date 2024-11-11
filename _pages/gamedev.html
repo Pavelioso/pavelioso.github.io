@@ -22,3 +22,27 @@ permalink: /gamedev/
       </div>
     </div>
   </div>
+---
+layout: gamedev
+title: Game Dev
+permalink: /gamedev/
+
+---
+
+<div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="row grid">
+            {% if site.posts.size > 0 %}
+              {% for post in paginator.posts %}
+                {% unless post.featured == true %}
+                  {% include article-content.html %}
+                {% endunless %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
