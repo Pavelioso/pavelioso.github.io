@@ -32,6 +32,13 @@ gamedev:
     These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects aswell. 
 
 #-------------------------------
+# Events Settings
+events:
+  title: Events
+  description: > 
+    These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects aswell.
+
+#-------------------------------
 # Industrial Design Settings
 gamedev:
   title: Industrial Design
