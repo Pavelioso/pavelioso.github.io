@@ -4,7 +4,7 @@ title:  TRINITRON Stage
 description: Went a little crazy with this one - designed a stage with LED strips and custom touchscreen control panel.
 date:   2014-04-16 15:01:35 +0300
 image:  '/images/trinitron-stage/trinitron-render3.jpg'
-tags:   [concept, events]
+tags:   [concept, events, industrialdesign]
 ---
 I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
 

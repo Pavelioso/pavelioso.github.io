@@ -31,6 +31,15 @@ gamedev:
   description: > 
     These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects aswell. 
 
+#-------------------------------
+# Industrial Design Settings
+gamedev:
+  title: Industrial Design
+  description: > 
+    I was tasked multiple times to create designs that are beatiful but also functional. This hobby turned to something that could be used 
+    in multiple projects, is the main path I would like to embark on. I have designed a stage for a club in San Francisco, that was  modular and packable  
+    to one van, aswell tables that could be reassembled without any screws, and further down the line objects for museums that I have made with my 3D printer.
+
 
 
 #-------------------------------

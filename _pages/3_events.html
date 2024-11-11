@@ -1,0 +1,58 @@
+---
+layout: default
+tag: events
+title: Events
+permalink: /events/
+---
+
+<!-- Begin hero section -->
+{% assign dynamic_title = site[page.tag].title %}
+{% assign dynamic_description = site[page.tag].description %}
+{% assign dynamic_image = site[page.tag].image %}
+
+{% if dynamic_image %}
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__image">
+      <img class="lazy" data-src="{{site.baseurl}}{{dynamic_image}}" alt="{{dynamic_title}}">
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title">{{dynamic_title}}</h1>
+      <p class="hero__desc">{{dynamic_description}}</p>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="hero-without-image">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1 class="hero__title">{{dynamic_title}}</h1>
+      <p class="hero__desc">{{dynamic_description}}</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End hero section -->
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="container__inner">
+        <div class="row grid">
+          {% assign filtered_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+          {% if filtered_posts.size > 0 %}
+            {% for post in filtered_posts %}
+              {% unless post.featured == true %}
+                {% include article-content.html %}
+              {% endunless %}
+            {% endfor %}
+          {% else %}
+            <p>No posts found with the tag "{{ page.tag }}"</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include pagination.html %}
