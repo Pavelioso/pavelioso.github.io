@@ -5,28 +5,20 @@ permalink: /gamedev/
 
 ---
 
-{% assign filterTag = "gamedev" %} <!-- Replace with the tag you want to filter by -->
-
 <div class="container">
   <div class="row">
-    <div class="col col-12 load-more">
-      <!-- Filter posts by tag -->
-      {% assign filteredPosts = site.posts | where_exp: "post", "post.tags contains filterTag" %}
-      {% assign postCount = filteredPosts | size %}
-      {% assign postsCovered = site.paginate | plus: offset %}
-
-      {% for post in filteredPosts %}
-        <!-- Display post content here -->
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>
-      {% endfor %}
-
-      <!-- Load more button if there are more posts to display -->
-      {% if postsCovered < postCount %}
-        <div class="load-more-section">
-          <button class="load-more-posts button button--middle">Load More</button>
+    <div class="col col-12">
+      <div class="container__inner">
+        <div class="row grid">
+          {% if site.posts.size > 0 %}
+            {% for post in paginator.posts %}
+              {% unless post.featured == true %}
+                {% include article-content.html %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
         </div>
-      {% endif %}
+      </div>
     </div>
   </div>
 </div>
