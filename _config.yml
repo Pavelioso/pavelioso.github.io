@@ -100,7 +100,7 @@ plugins:
   - jekyll/tagging
   - jekyll-tagging
 
-paginate: 15
+paginate: 100
 paginate_path: "/page/:num"
 
 # Pages Path
