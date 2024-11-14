@@ -13,7 +13,7 @@
     {% if post.image %}
       {% if post.snapshot %}
         <!-- Non-clickable image for snapshots with zoom effect -->
-        <div class="article__image article__image--snapshot">
+        <div class="article__image">
           <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}" data-action="zoom">
         </div>
       {% else %}
