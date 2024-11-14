@@ -36,16 +36,14 @@ gamedev:
 events:
   title: Events
   description: > 
-    These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects aswell.
+    I was designing and producing installations, usually real-time. Software was typically Touch Designer and Unreal Engine. 
 
 #-------------------------------
 # Industrial Design Settings
 industrialdesign:
   title: Industrial Design
   description: > 
-    I was tasked multiple times to create designs that are beatiful but also functional. This hobby turned to something that could be used 
-    in multiple projects, is the main path I would like to embark on. I have designed a stage for a club in San Francisco, that was  modular and packable  
-    to one van, aswell tables that could be reassembled without any screws, and further down the line objects for museums that I have made with my 3D printer.
+    I was tasked multiple times to create designs that are beatiful but also functional. So here it is!
 
 
 
@@ -76,7 +74,7 @@ social:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+# disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
