@@ -14,8 +14,20 @@
       {% if post.snapshot %}
         <!-- Non-clickable image for snapshots with zoom effect -->
         <div class="article__image">
-          <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}" data-action="zoom">
+          <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}" data-action="zoom" id="snapshot-image-{{ forloop.index }}">
         </div>
+
+        <!-- Inline JavaScript to initialize zoom for snapshot images -->
+        <script type="text/javascript">
+          document.addEventListener("DOMContentLoaded", function() {
+            // Select the snapshot image by ID and initialize zoom
+            var snapshotImage = document.getElementById("snapshot-image-{{ forloop.index }}");
+            if (snapshotImage) {
+              snapshotImage.setAttribute("data-action", "zoom");
+            }
+          });
+        </script>
+
       {% else %}
         <!-- Clickable image for regular articles -->
         <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
