@@ -5,6 +5,7 @@ description: An app for nVidia Frameviewer benchmarking software. They don't hav
 date:   2023-03-20 15:01:35 +0300
 image:  '/images/frameviewer/frameviewer1.png'
 tags:   [flutter, programming]
+snapshot: true
 ---
 
 ## What's going on here?

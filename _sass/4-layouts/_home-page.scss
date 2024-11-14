@@ -204,4 +204,17 @@
   span {
     color: rgba($white, .8);
   }
+  
+}
+
+/* Styles for articles marked as snapshot */
+.article--snapshot {
+  border-radius: 10px;       /* Rounded corners */
+  padding: 10px;             /* Smaller padding */
+  opacity: 0.9;              /* Slightly dimmed appearance */
+}
+
+.article__image--snapshot {
+  width: 80%;                /* Smaller image for snapshot */
+  margin: auto;              /* Centered */
 }
