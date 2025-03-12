@@ -17,11 +17,12 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  title: Pavel Nečas
+  title: I am Pavel Nečas
   description: > 
-    Game Producer and Unreal Generalist, Problem Solver, Immersive Experiences Creator. Welcome! 
-    Place where I post my ideas and projects. Some large, some small. 
-    My Discord is Pavelios 4451. 
+    I build stuff — apps, games, startups, and whatever else seems like a good idea. 
+    Backend, frontend, VR, R&D… if it needs making, I’ll probably try. UX or market research? No problem. 
+    Some projects take off, some don't. Either way, this is where they land. 
+    Discord: Pavelios 4451. 
   image: '/images/backgrounds/bg-1.jpg'
 
 #-------------------------------
