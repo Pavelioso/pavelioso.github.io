@@ -1,0 +1,41 @@
+---
+layout: post
+title:  Facebook F8 Realtime Visuals
+description: A crazy realtime event responsive mapping for Facebook's F8 conference.
+date:   2014-04-30 15:01:35 +0300
+image:  f8-photo-1.jpg
+tags:   [events, videomapping]
+featured: true
+---
+
+When Facebook had an F8 conference, I was tasked with creating various content for a 60 meter long installation, mounted to the ceiling of a lounge area of the venue. 
+It was huge, the photos don't give it justice. We used 8 projectors, with brightness of 40k lumen (home projectors have for example around 2500 lumen). To say the least, no expense was spared, and it was a really interesting project to be part of.
+
+So cool things about it:
+
+- 8x 40k projectors, with 4k resolution. 
+- Laser (optical) video cables from media server to projectors were used, so projector blending wouldn't be disturbed (the projector outputs on the installation are blended together with a gradient, so the projection area can be larger - if the projectors are too apart, HDMI cables cannot be used without repeaters, and they have delay - the blending breaks on large installations, therefore speed of light (optical video cables) needs to be used instead.)
+
+
+![stage](\images\f8\f8-pano-1.jpg)
+
+- The effects were connected to Facebook's API, and RFID chips of the visitors. Meaning, if someone new came, their profile picture was downloaded, and added to the visuals of the installation. The same was with where people were from, type of attendees, etc.
+- The primary media server's actions was copied to a duplicate secondary server, in case the primary failed.
+
+![stage](\images\f8\f8-photo-2.jpg)
+
+Sorry for the video quality!
+<p><iframe src="https://www.youtube.com/embed/J-hW5ROp9M4" frameborder="0" allowfullscreen></iframe></p>
+
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="f8-production1.jpg">
+    <img src="f8-production2.jpg">
+    <img src="f8-people-1.jpg">
+    
+  </div>
+  <em>Some behind the scenes.</em>
+</div>
+
+

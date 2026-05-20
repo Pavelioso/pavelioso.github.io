@@ -1,3 +1,61 @@
+{% if post.type == 'gallery' %}
+<!-- Gallery Post Tile -->
+<div class="article col col-4 col-d-6 col-t-12 grid__post animate article--gallery">
+  <div class="article__inner">
+    
+    <span class="gallery-badge">📸 Gallery</span>
+    
+    {% assign gallery_count = post.gallery.size %}
+    {% if gallery_count == 1 %}
+      {% assign grid_class = "gallery-grid--single" %}
+    {% elsif gallery_count == 2 %}
+      {% assign grid_class = "gallery-grid--double" %}
+    {% elsif gallery_count == 3 %}
+      {% assign grid_class = "gallery-grid--triple" %}
+    {% elsif gallery_count == 4 %}
+      {% assign grid_class = "gallery-grid--quad" %}
+    {% else %}
+      {% assign grid_class = "gallery-grid--many" %}
+    {% endif %}
+    
+    <div class="gallery-grid {{ grid_class }}">
+      {% for image in post.gallery limit:6 %}
+        <a href="#lightbox-{{ post.id | replace: '/', '-' }}-{{ forloop.index }}" class="gallery-item {% if forloop.first and gallery_count == 3 %}gallery-item--span-2{% endif %}">
+          <img class="lazy" data-src="{{site.baseurl}}{{ image }}" alt="{{ post.title }}">
+          {% if forloop.last and gallery_count > 6 %}
+            <div class="gallery-more">+{{ gallery_count | minus: 6 }}</div>
+          {% endif %}
+        </a>
+        
+        <!-- Lightbox -->
+        <div id="lightbox-{{ post.id | replace: '/', '-' }}-{{ forloop.index }}" class="lightbox">
+          <div class="lightbox-content">
+            <a href="#" class="lightbox-close">&times;</a>
+            <img src="{{site.baseurl}}{{ image }}" alt="{{ post.title }}">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="article__content">
+      <div class="article__meta">
+        <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ post.date | date: date_format }}
+        </time>
+      </div>
+      
+      <h2 class="article__title">{{ post.title }}</h2>
+      
+      {% if post.description %}
+        <p class="article__excerpt">{{ post.description }}</p>
+      {% endif %}
+    </div>
+    
+  </div>
+</div>
+{% else %}
+<!-- Regular Article Post -->
 <div class="article col {% if forloop.index <= 2 and page.url == '/' %}col-6 col-t-12 grid__post animate article--big{% else %}col-4 col-d-6 col-t-12 grid__post animate{% endif %}">
   <div class="article__inner">
 
@@ -52,3 +110,4 @@
 
   </div>
 </div>
+{% endif %}
