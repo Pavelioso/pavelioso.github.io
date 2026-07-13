@@ -48,7 +48,7 @@ def create_article_post(args):
     post_dir = BASE_DIR / POSTS_DIR / f"{date_str}-{slug}"
     post_dir.mkdir(parents=True, exist_ok=True)
     
-    filepath = post_dir / "index.markdown"
+    filepath = post_dir / f"{date_str}-{slug}.markdown"
     
     # Front matter - images now relative to post folder
     front_matter = f"""---
@@ -97,7 +97,7 @@ def create_gallery_post(args):
     post_dir = BASE_DIR / POSTS_DIR / f"{date_str}-{slug}"
     post_dir.mkdir(parents=True, exist_ok=True)
     
-    filepath = post_dir / "index.markdown"
+    filepath = post_dir / f"{date_str}-{slug}.markdown"
     
     # If source directory provided, copy images
     if args.images_dir:
