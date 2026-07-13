@@ -36,7 +36,8 @@ layout: default
       <div class="container__inner">
         <div class="row grid">
           {% if site.posts.size > 0 %}
-            {% for post in paginator.posts %}
+            {% assign posts_list = paginator.posts | default: site.posts %}
+            {% for post in posts_list %}
               {% unless post.featured == true %}
                 {% include article-content.html %}
               {% endunless %}
