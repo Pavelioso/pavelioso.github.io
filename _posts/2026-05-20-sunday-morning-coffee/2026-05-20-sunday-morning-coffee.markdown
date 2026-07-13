@@ -3,7 +3,7 @@ layout: post
 title: Sunday Morning Coffee
 description: Cozy coffee shop moments
 date: 2026-05-20 11:31:28 +0300
-image: '01.jpg
+image: '01.jpg'
 tags: [photography, life]
 type: gallery
 gallery:

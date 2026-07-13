@@ -3,7 +3,7 @@ layout: post
 title:  Opinion - Megascans is not for everyone.
 description: Prevent yourself from falling into the "Realistic Graphics" pit.
 date:   2022-11-13 15:01:35 +0300
-image:  '/images/owl_mountains_bunker.jpg
+image:  '/images/owl_mountains_bunker.jpg'
 tags:   [gamedev, thoughts]
 ---
 ## Try not to use Megascans as Indie. Hear me out.
