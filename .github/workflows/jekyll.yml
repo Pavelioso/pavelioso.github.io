@@ -45,6 +45,23 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      - name: Copy bundled post assets into _site
+        run: |
+          find _posts -mindepth 2 -maxdepth 2 \( -name '*.markdown' -o -name '*.md' \) | while read -r post_file; do
+            post_dir="$(dirname "$post_file")"
+            post_name="$(basename "$post_file")"
+            post_stem="${post_name%.*}"
+            year="${post_stem:0:4}"
+            month="${post_stem:5:2}"
+            day="${post_stem:8:2}"
+            slug="${post_stem:11}"
+            dest_dir="_site/$year/$month/$day/$slug"
+
+            mkdir -p "$dest_dir"
+
+            find "$post_dir" -mindepth 1 -maxdepth 1 -type f ! \( -name '*.markdown' -o -name '*.md' \) -exec cp {} "$dest_dir/" \;
+          done
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
