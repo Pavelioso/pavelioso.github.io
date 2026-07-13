@@ -25,12 +25,22 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          bundler-cache: false
           
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
         
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Debug: list installed gems
+        run: |
+          echo "-- bundle list --"
+          bundle list || true
+          echo "-- bundle info jekyll-tagging --"
+          bundle info jekyll-tagging || true
+
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
