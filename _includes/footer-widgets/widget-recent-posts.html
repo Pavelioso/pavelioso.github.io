@@ -8,7 +8,15 @@
     {% for post in site.posts limit:2 %}
     <div class="recent-posts">
       {% if post.image %}
-      <a class="recent-posts__image" href="{{ post.url }}"><img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}"></a>
+      {% assign image_first_char = post.image | slice: 0 %}
+      {% if post.image contains '://' %}
+        {% assign post_image_url = post.image %}
+      {% elsif image_first_char == '/' %}
+        {% assign post_image_url = post.image | prepend: site.baseurl %}
+      {% else %}
+        {% assign post_image_url = post.image | prepend: post.url | prepend: site.baseurl %}
+      {% endif %}
+      <a class="recent-posts__image" href="{{ post.url }}"><img class="lazy" data-src="{{ post_image_url }}" alt="{{post.title}}"></a>
       {% endif %}
       <div class="recent-posts__content">
         <div class="article__meta">
