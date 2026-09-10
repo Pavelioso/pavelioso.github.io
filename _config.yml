@@ -6,6 +6,10 @@ description: NONODE - Personal site of Pavel Nečas.
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://pavelnecas.com" # The base hostname & protocol for your site, e.g. http://example.com
 
+header:
+  show_logo: false
+  show_search: false
+
 
 #-------------------------------
 # Author Settings
