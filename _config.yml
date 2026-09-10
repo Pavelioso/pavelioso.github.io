@@ -1,10 +1,10 @@
 #-------------------------------
 # General Site Settings
-title: NONODE
+title: 
 logo: # You can add own logo. For example '/images/logo.png'.
-description: NONODE - Personal site of Pavel Necas.
+description: NONODE - Personal site of Pavel Nečas.
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "http://nonode.dev" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://pavelnecas.com" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
