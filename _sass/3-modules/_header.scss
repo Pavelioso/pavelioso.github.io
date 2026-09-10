@@ -24,6 +24,27 @@
   flex-wrap: wrap;
 }
 
+.header--logo-hidden.header--search-hidden {
+  .header__inner {
+    justify-content: center;
+  }
+
+  .nav-buttons {
+    position: absolute;
+    right: 0;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .header__inner {
+      justify-content: flex-end;
+    }
+
+    .nav-buttons {
+      position: static;
+    }
+  }
+}
+
 /* Logo */
 .logo__link {
   font-family: $heading-font-family;

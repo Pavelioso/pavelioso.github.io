@@ -7,7 +7,7 @@
 {% endif %}
 
 <!-- begin header -->
-<header class="header {{ class }}">
+<header class="header {{ class }}{% if site.header.show_logo == false %} header--logo-hidden{% endif %}{% if site.header.show_search == false %} header--search-hidden{% endif %}">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
