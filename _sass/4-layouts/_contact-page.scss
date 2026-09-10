@@ -1,4 +1,23 @@
 /* Contact Page */
+.contact-card {
+  max-width: 680px;
+}
+
+.contact-card__text {
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.contact-card__fallback {
+  margin-bottom: 32px;
+  color: $gray;
+}
+
+.contact-card__actions {
+  margin-bottom: 48px;
+}
+
 .form__group {
   margin-bottom: 20px;
 }

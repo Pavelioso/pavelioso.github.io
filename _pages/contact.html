@@ -5,28 +5,44 @@ permalink: /contact/
 image: '/images/45.jpg'
 ---
 
-<div class="form-container">
-  {% if site.contact.description %}
-  <p class="contact-description">{{site.contact.description}}</p>
-  {% endif %}
-  <form class="form"
-    action="{% if site.contact.email %}https://formspree.io/{{site.contact.email}}{% else %}#{% endif %}" method="POST">
-    <div class="form__group">
-      <label class="form__label screen-reader-text" for="form-name">Your Name</label>
-      <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
-    </div>
-    <div class="form__group">
-      <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
-    </div>
-    <div class="form__group">
-      <label class="form__label screen-reader-text" for="form-text">Your Message</label>
-      <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
-    </div>
-    <div class="form__group">
-      <button class="button button--primary" type="submit">Send Message</button>
-    </div>
-    <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
-  </form>
-  <hr>
+<div class="contact-card">
+  <p class="contact-card__text">
+    The easiest way to reach me is email on the nonode.dev domain.
+  </p>
+
+  <p class="contact-card__fallback">
+    Address format: first name, then the usual sign, then this domain.
+  </p>
+
+  <div class="contact-card__actions">
+    <a
+      class="button button--primary js-protected-email"
+      href="#"
+      data-user="levap"
+      data-domain="edonon"
+      data-tld="ved"
+      rel="nofollow"
+    >Reveal Email</a>
+  </div>
 </div>
+
+<script>
+  (function () {
+    var link = document.querySelector('.js-protected-email');
+    if (!link) return;
+
+    function reverse(value) {
+      return value.split('').reverse().join('');
+    }
+
+    link.addEventListener('click', function (event) {
+      var address = reverse(link.dataset.user) + '@' + reverse(link.dataset.domain) + '.' + reverse(link.dataset.tld);
+      link.href = 'mailto:' + address;
+      link.textContent = address;
+
+      if (event.type === 'click' && link.getAttribute('href') === '#') {
+        event.preventDefault();
+      }
+    }, { once: true });
+  }());
+</script>
