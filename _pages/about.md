@@ -7,32 +7,34 @@ image: '/images/backgrounds/bg-2.jpg'
 
 ## HELLO!
 
-In game development, there is a rule, where one shouldn't force the player to read a wall of text, instead, leave it up to player's choice - quests and important game information is short, and non-important information is hidden for the player to find, which, usually is a wall of text. Since the current of the internet seas took you to an "about" page of myself, I will believe that you are the latter, though I present to you the choice - Either you can turn back, live as you lived, or you can chew through my babbling about me, and see how deep the rabbit hole goes.
+I'm Pavel Nečas—a multidisciplinary product builder and technical specialist working across IT, interactive media, game development, and electro-mechanics. 
 
-![My home, Tenerife.]({{site.baseurl}}/images/about/about-6.jpg)
-*My home, Tenerife.*
-
-I'm Pavel Necas, and I'm a multi-talented creative professional with a diverse background in game development, production pipelines, programming, 3D, VR, product conception and realization. I know, it sounds quite a lot - I don't even know what to call myself.
+I tend to thrive in smaller, nimble teams where challenges vary daily and there’s no corporate red tape slowing down execution.
 
 ## What do I do?
 
-I've started projects, studio and companies. Furthermore, I communicate with clients, I make sure that project stays within budget but has creative freedom. I like to generate ideas, write, create fantasy worlds or create real life business ideas. I also like to get my hands dirty, so project management, programming, 2D work like UX UI design, animation creation, sound design, or scripting are all things I've done and have experience in. Currently, I am intensely learning programming like Dart and Flutter. 
+I’m a product-focused generalist who takes ideas from concept to completion. I bridges the gap between client expectations and technical execution—whether that means architecting system logic, mapping UI/UX, rapidly prototyping MVP code, or assembling and leading cross-functional teams.
+
+I don’t treat the computer screen as a boundary. I genuinely love Technical R&D and connecting software to the physical world—wiring microcontrollers, running oscilloscope diagnostics, designing 3D-printed parts, and building custom tooling for legacy machinery. 
+
+Whether running a 10-person team or building independently, I am comfortable with whatever the project demands: systems architecture, front/backend code, UI design, audio pipelines, or hardware tinkering.
 
 ## How it all started
 
-I started off as a 3D generalist and eventually found my way to the video mapping industry, where I had many roles, such as a project manager, designer, concept artist, and programmer. Usually I had to find very creative ways to get task done quickly and originally with great quality output, which was a great source of experience.
+My journey began in Sweden as a 3D generalist and VFX artist, which quickly led me to the Netherlands working in video mapping. In fast-paced event tech, I wore every hat available—project manager, concept designer, and programmer—learning how to deliver creative, high-quality solutions under tight deadlines.
 
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/about/about-1.jpg">
-    <!-- <img src="/images/about/about-3.jpg"> -->
   </div>
   <em>A little bit of myself.</em>
 </div>
 
-Afterwards, I spent some time working on VR projects for clients, which was a really exciting and innovative field to be a part of. Though then I discovered my next challenge - game development. I spent a solid 8 years in game development, learning the ins and outs of 3D modeling, programming, audio design, and game design. I released one indie game.
+That work eventually took me to San Francisco, where I built large-scale interactive installations for clients like Facebook (F8 conference), Instagram, and Pure Storage. 
 
-These days, I'm all about programming and building products, or creating games, I'm all about finding creative solutions that work well within budgets, and I'm not afraid to roll up my sleeves and get the job done. 
+After relocating to Prague, I expanded into custom VR systems before spending 8 years in game development. While maintaining stable B2B client work, I co-founded a studio, managed production pipelines, mastered end-to-end game logic, and shipped an indie title.
+
+These days, I focus on Product Ownership, Technical R&D, and building pragmatically. I love taking fresh ideas, listening to teams and clients, and turning complex concepts into functional, real-world software and hardware systems.
 
 ## Hobby?
 
