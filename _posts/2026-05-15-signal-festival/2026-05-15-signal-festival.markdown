@@ -3,7 +3,7 @@ layout: post
 title:  Prague Signal Festival Interactive Wall
 description: A 3D camera based interactive projection wall. 
 date:   2026-05-15 15:01:35 +0100
-image:  signal_short_clip.mp4
+image:  signal_short_clip.webp
 fallback_image: signal_fallback.jpg
 tags:   [programming, events]
 ---
