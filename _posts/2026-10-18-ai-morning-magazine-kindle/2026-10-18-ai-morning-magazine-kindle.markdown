@@ -20,14 +20,14 @@ The magazine is called **Curious Works**, with the subtitle *"Problems, and how 
 At a high level:
 
 - **Self-hosted Open WebUI.** Everything runs locally on my own Open WebUI setup, not in someone else's app.
-- **A recursive research agent.** The bot picks an interesting topic and researches it in depth. It works recursively, so it digs into what it finds and follows the threads further instead of stopping at the first answer.
+- **A recursive research agent.** The bot takes an interesting topic and researches it in depth. It works recursively, so it digs into what it finds and follows the threads further instead of stopping at the first answer.
 - **Images.** It creates images for the issue, such as the illustrated cover, and the inside pages also use sourced photos and maps.
 - **Newspaper layout.** All of it is laid out like a printed magazine: masthead, issue number and date, section label, headline, standfirst and drop cap.
 - **Wireless delivery.** The finished issue is sent wirelessly to my Kindle, where it shows up in the library like any other book.
 - **It runs on its own.** Once it's set up, the whole thing works automatically. I don't have to start anything, I just pick up the Kindle.
 
 ## What the issues look like
-Issue No. 012 is an Evidence issue: *"The Broad Street Pump Proved Nothing, and John Snow Knew It"*. Under the title it says plainly that it was written by AI from published sources. I think that kind of honesty matters if you're going to read AI-written text every morning.
+Issue No. 012 is an Evidence issue: *"The Broad Street Pump Proved Nothing, and John Snow Knew It"*. Under the title it says plainly that it was written by AI from published sources. I think that kind of honesty matters if you're going to read AI-written text first thing in the morning.
 
 ![First page of Curious Works Issue No. 012, an Evidence issue dated Friday 16 October 2026, with the headline The Broad Street Pump Proved Nothing, and John Snow Knew It, a drop cap and the line Written by AI from published sources](curious-works-issue-012-first-page.jpg)
 *Issue No. 012 (Friday 16 October 2026): headline, standfirst, drop cap and the "Written by AI from published sources" line*
@@ -51,4 +51,4 @@ For me this is mainly an experiment in what an AI agent can do on its own, from 
 It's also a test of whether AI can make something you actually want to spend time with, rather than more content to scroll past. A quiet, finished magazine on an e-ink screen is about as far from a feed as I could think of.
 
 ## Result
-A working, fully automatic pipeline that turns my self-hosted AI setup into a small morning magazine. New issues of Curious Works show up on my Kindle without me doing anything, and my mornings start with a story instead of a phone.
+A working, fully automatic pipeline that turns my self-hosted AI setup into a small morning magazine. New issues of Curious Works show up on my Kindle without me doing anything, and the idea is simple: start the morning with a story instead of a phone.
