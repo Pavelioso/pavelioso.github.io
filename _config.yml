@@ -59,7 +59,8 @@ electronics-auto:
   title: Electronics & Automotive
   description: > 
     I am an avid fan of electronics, automotive systems, and diagnosing legacy systems. 
-    I also design and share 3D printable models, which you can find on my [Printables profile](https://www.printables.com/@Pavelios_4547983).
+    I also design and share 3D printable models, which you can find on my [Printables profile](https://www.printables.com/@Pavelios_4547983),
+    and I post diagnostics videos (cars, tools, computers and more) on my YouTube channel [diagnosement](https://www.youtube.com/@diagnosement).
 
 
 
@@ -84,7 +85,8 @@ social:
 # - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # - {icon: "ion-logo-instagram", link: "https://instagram.com"}
 # - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {name: "YouTube", icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCbjAhPuKCbcNuSiPArQujiA"}
+- {name: "YouTube · Gamedev", icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCbjAhPuKCbcNuSiPArQujiA"} # channel "Pavelios"
+- {name: "YouTube · Car diagnostics", icon: "ion-logo-youtube", link: "https://www.youtube.com/@diagnosement"} # channel "diagnosement"
 - {name: "Printables", icon: "ion-md-cube", link: "https://www.printables.com/@Pavelios_4547983"} # Ionicons has no Printables logo; cube = 3D printing
 - {name: "GitHub", icon: "ion-logo-github", link: "https://github.com/Pavelioso/"}
 # - {icon: "ion ion-logo-vimeo", link: "https://vimeo.com/"}
