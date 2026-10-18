@@ -61,6 +61,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row dense; // pack normal cards into gaps left by wide featured cards / filtering
   gap: 28px;
 
   @media only screen and (max-width: $desktop) {
@@ -247,4 +248,86 @@
 
 .article__author-image {
   border-radius: 50%;
+}
+
+/* Featured card: wide (2 of 3 columns on desktop, full width on tablet),
+   image beside the text. Phones fall back to the normal stacked card. */
+.article--featured {
+  grid-column: span 2;
+
+  .article__inner {
+    flex-direction: row;
+  }
+
+  .article__image {
+    flex: 0 0 58%;
+    aspect-ratio: auto;
+    min-height: 300px;
+  }
+
+  .article__content {
+    justify-content: center;
+    padding: 28px 30px;
+  }
+
+  .article__title {
+    margin: 12px 0 12px;
+    font-size: 30px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .article__excerpt {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .article-tags {
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .article__image {
+      flex-basis: 55%;
+      min-height: 280px;
+    }
+
+    .article__title {
+      font-size: 26px;
+    }
+  }
+
+  @media only screen and (max-width: $tablet - 128px) {
+    grid-column: auto;
+
+    .article__inner {
+      flex-direction: column;
+    }
+
+    .article__image {
+      flex: none;
+      aspect-ratio: 16 / 10;
+      min-height: 0;
+    }
+
+    .article__content {
+      padding: 18px;
+    }
+
+    .article__title {
+      margin: 10px 0 8px;
+      font-size: 22px;
+      line-height: 1.15;
+      letter-spacing: -0.5px;
+    }
+
+    .article__excerpt {
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    .article-tags {
+      margin-top: auto;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {% comment %}
-  Responsive project grid.
+  Responsive project grid. Featured posts render as large cards (span 2 columns).
   Params: posts (array, required), filters (true to show client-side category filters)
 {% endcomment %}
 {% assign grid_posts = include.posts %}
@@ -29,7 +29,7 @@
     {% if grid_posts.size > 0 %}
     <div class="grid">
       {% for post in grid_posts %}
-        {% include article-content.html %}
+        {% include article-content.html large_featured=true %}
       {% endfor %}
     </div>
     {% else %}
