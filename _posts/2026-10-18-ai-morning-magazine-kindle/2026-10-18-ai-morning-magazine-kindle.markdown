@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Autonomous AI Magazine: A Self-Hosted Research Bot That Delivers a Morning Paper to My Kindle"
-description: "A personal AI study: a self-hosted Open WebUI setup where an autonomous, recursive agent researches a topic, creates images, lays it out as a magazine and sends it to my Kindle, so the morning starts with reading instead of doomscrolling."
+title:  "Autonomous AI Magazine: A Self-Hosted Research Bot That Sends a New Issue to My Kindle Every Three Days"
+description: "A personal AI study: a self-hosted Open WebUI setup where an autonomous, recursive agent researches a topic, creates images, lays it out as a magazine and emails it to my Kindle every three days, so the morning starts with reading instead of doomscrolling."
 date:   2026-10-18 12:00:00 +0200
 image:  curious-works-cover.webp
 featured: true
@@ -11,7 +11,7 @@ tags:   [concept, interactive, programming]
 ## What is this?
 Like a lot of people, I used to start the morning by reaching for my phone and scrolling. I wanted to swap that habit for something calmer, so I tried to make a small morning magazine that is waiting on my Kindle instead.
 
-The magazine is called **Curious Works**, with the subtitle *"Problems, and how they were solved"*. Each issue takes one interesting topic and tells it as a long-form story, with pictures, maps and a proper newspaper layout. Nobody writes it by hand. An AI agent running on my own setup researches it, puts it together and delivers it.
+The magazine is called **Curious Works**, with the subtitle *"Problems, and how they were solved"*. Each issue takes one interesting topic and tells it as a long-form story, with pictures, maps and a proper newspaper layout. Nobody writes it by hand. An AI agent running on my own setup researches it, puts it together and delivers it. A new issue comes out every three days.
 
 ![A Kindle showing the cover of Curious Works Issue No. 011, a Music & Sound issue titled The First Recording of a Human Voice Was Never Meant to Be Heard, with an illustrated cover](curious-works-issue-011-cover.jpg)
 *Issue No. 011 (13 October 2026), a Music & Sound issue with an illustrated cover*
@@ -19,12 +19,15 @@ The magazine is called **Curious Works**, with the subtitle *"Problems, and how 
 ## How it works
 At a high level:
 
-- **Self-hosted Open WebUI.** Everything runs locally on my own Open WebUI setup, not in someone else's app.
-- **A recursive research agent.** The bot takes an interesting topic and researches it in depth. It works recursively, so it digs into what it finds and follows the threads further instead of stopping at the first answer.
+- **Self-hosted Open WebUI.** The whole pipeline lives in my own local Open WebUI setup, not in someone else's app.
+- **A recursive research agent.** The bot takes an interesting topic and researches it in depth. It works recursively, so it digs into what it finds and follows the threads further instead of stopping at the first answer. The research runs on DeepSeek (more on why below).
 - **Images.** It creates images for the issue, such as the illustrated cover, and the inside pages also use sourced photos and maps.
 - **Newspaper layout.** All of it is laid out like a printed magazine: masthead, issue number and date, section label, headline, standfirst and drop cap.
-- **Wireless delivery.** The finished issue is sent wirelessly to my Kindle, where it shows up in the library like any other book.
-- **It runs on its own.** Once it's set up, the whole thing works automatically. I don't have to start anything, I just pick up the Kindle.
+- **Wireless delivery.** The finished issue is sent as a document to my Kindle's email address (Amazon's Send to Kindle), so it arrives wirelessly and shows up in the library like any other book.
+- **It runs on its own.** A new issue is produced every three days, fully automatically. I don't have to start anything, I just pick up the Kindle.
+
+### What didn't work: local models
+My first plan was to keep everything local, models included. That didn't work out. Deep research means feeding the model a lot of material at once, and the local models I tried couldn't handle a context window that large. So I moved the research step to DeepSeek, which can. It was a useful lesson for me: self-hosting the tools and the workflow is very doable, but for long research the context window decides which model you can actually use.
 
 ## What the issues look like
 Issue No. 012 is an Evidence issue: *"The Broad Street Pump Proved Nothing, and John Snow Knew It"*. Under the title it says plainly that it was written by AI from published sources. I think that kind of honesty matters if you're going to read AI-written text first thing in the morning.
