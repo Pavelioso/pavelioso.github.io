@@ -73,7 +73,12 @@ $(document).ready(function() {
   var filterBar = document.querySelector('.filters');
   if (filterBar) {
     var filterButtons = filterBar.querySelectorAll('.filter');
+    var grid = document.querySelector('.projects .grid');
     var cards = document.querySelectorAll('.projects .grid .article');
+    // newest-first rank, used to show one plain date-ordered grid while a filter is active
+    var ranked = Array.prototype.slice.call(cards).sort(function (a, b) {
+      return (parseInt(b.getAttribute('data-ts'), 10) || 0) - (parseInt(a.getAttribute('data-ts'), 10) || 0);
+    });
 
     filterBar.hidden = false;
 
@@ -88,9 +93,16 @@ $(document).ready(function() {
         b.setAttribute('aria-pressed', active ? 'true' : 'false');
       });
 
+      var filtered = group !== 'all';
+      if (grid) grid.classList.toggle('is-filtered', filtered);
+
       cards.forEach(function (card) {
         var groups = (card.getAttribute('data-groups') || '').split(' ');
         card.hidden = !(group === 'all' || groups.indexOf(group) !== -1);
+      });
+
+      ranked.forEach(function (card, i) {
+        card.style.order = filtered ? i : '';
       });
     });
   }
