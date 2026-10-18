@@ -60,12 +60,29 @@
   max-width: 760px;
 }
 
+.hero__eyebrow {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $brand-color;
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+  }
+}
+
 .hero__title {
   margin: 0 0 16px;
   font-size: 72px;
   line-height: 1;
   letter-spacing: -2px;
   color: $white;
+  overflow-wrap: break-word;
 
   @media only screen and (max-width: $desktop) {
     font-size: 60px;
@@ -75,6 +92,13 @@
     font-size: 44px;
     letter-spacing: -1px;
   }
+}
+
+// Homepage headline is a longer phrase: cap it on desktop, scale it down on phones
+.hero:not(.hero--page) .hero__title {
+  font-size: clamp(32px, 8.6vw, 64px);
+  line-height: 1.02;
+  text-wrap: balance;
 }
 
 .hero__pitch {

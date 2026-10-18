@@ -21,15 +21,16 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  title: I am Pavel Nečas
+  eyebrow: Pavel Nečas # small label above the headline
+  title: Multidisciplinary problem solver
   description: > 
     I build products—from AI platforms and web apps to interactive media and hardware R&D. 
     Over 14+ years, I’ve worked across systems architecture, UI/UX, 3D/VR, and rapid prototyping, bridging the gap between raw ideas and shipped code. Whether leading product development or building from scratch, I focus on turning complex technical concepts into pragmatic, scalable tools. 
     
   image: '/images/backgrounds/bg-1.jpg'
-  # Short lines shown in the homepage hero (taken from the description above)
-  pitch: I build products—from AI platforms and web apps to interactive media and hardware R&D.
-  subline: 14+ years across systems architecture, UI/UX, 3D/VR, and rapid prototyping—bridging the gap between raw ideas and shipped code.
+  # Short lines shown in the homepage hero, under the headline
+  pitch: From games and live events to AI platforms and cars.
+  subline: 14+ years in cross-functional teams across systems architecture, UI/UX, 3D/VR, and rapid prototyping—bridging the gap between raw ideas and shipped code.
 
 #-------------------------------
 # Homepage project filters (client-side). A project matches a filter if it has any of the listed tags.
