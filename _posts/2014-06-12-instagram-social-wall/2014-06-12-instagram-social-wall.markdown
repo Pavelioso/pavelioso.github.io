@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Instagram Art Basel Social Wall
-description: People could hashtag their pictures in Instagram to show it on this wall - of course they did not send nude pics.
+title:  "Instagram at Art Basel Hong Kong: Live Hashtag Video Wall"
+description: "A 12-screen wall of moderated #artbasel posts, built in TouchDesigner on a tight deadline with a web moderation tool and 4G-only internet."
 date:   2014-06-12 15:01:35 +0300
 image:  instagram-photo-1.jpg
-tags:   [events, videomapping]
+tags:   [events, videomapping, interactive, programming]
 ---
 
 ## What is this?

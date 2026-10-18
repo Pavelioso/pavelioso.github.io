@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Autodesk University Unreal Engine Visuals
-description: Task was to create visuals that the end client could change real-time
+title:  "Autodesk University: Real-Time Unreal Event Visuals"
+description: "Quick-turnaround Unreal Engine visuals the client could change in real time."
 date:   2017-03-30 15:01:35 +0300
 image:  autodesk_uni_cut2.webp
 fallback_image: autodesk_uni_fallback.jpg

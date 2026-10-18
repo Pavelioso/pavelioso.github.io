@@ -16,7 +16,7 @@ layout: default
       {% endif %}
       <div class="col col-6 col-t-12">
         <div class="image-box">
-          <img class="post-image" src="{{ page_image_url }}" alt="{{page.title}}" fetchpriority="high" decoding="async">
+          <img class="post-image" src="{{ page_image_url }}" alt="{{ page.title | escape }}" fetchpriority="high" decoding="async">
         </div>
       </div>
       {% endif %}

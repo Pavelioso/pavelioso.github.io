@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  TRINITRON Stage 
-description: Went a little crazy with this one - designed a stage with LED strips and custom touchscreen control panel.
+title:  "Trinitron: Cheap-to-Build Modular LED & Projection Stage"
+description: "Designed a reusable stage backdrop from repeating triangles of PVC pipe and LED strips, with the LEDs mapped to follow the projector content."
 date:   2014-04-16 15:01:35 +0300
 image:  trinitron-render3.jpg
 tags:   [concept, events, industrialdesign]

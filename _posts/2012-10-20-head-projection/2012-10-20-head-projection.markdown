@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Head Projection Mapping 
-description: A school project where we projected some party visuals on a head in a park.
+title:  "Head Sculpture Projection Mapping: 24-Hour School Project"
+description: "Projection-mapped party visuals onto a head sculpture in a park during a 24-hour school project."
 date:   2012-10-20 15:01:35 +0300
 image:  clayplay_thumb.webp
 tags:   [installation]

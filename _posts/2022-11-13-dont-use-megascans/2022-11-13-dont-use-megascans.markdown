@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Opinion - Megascans is not for everyone.
-description: Prevent yourself from falling into the "Realistic Graphics" pit.
+title:  "Why Photoscanned Realism Can Sink an Indie Game"
+description: "Lessons from Megascans and our own photogrammetry scans: one realistic asset forces everything to match, so prototype first."
 date:   2022-11-13 15:01:35 +0300
 image:  '/images/owl_mountains_bunker.jpg'
 tags:   [gamedev, thoughts]

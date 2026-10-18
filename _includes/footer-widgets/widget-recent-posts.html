@@ -16,7 +16,7 @@
       {% else %}
         {% assign post_image_url = post.image | prepend: post.url | prepend: site.baseurl %}
       {% endif %}
-      <a class="recent-posts__image" href="{{ post.url }}"><img loading="lazy" decoding="async" src="{{ post_image_url }}" alt="{{post.title}}"></a>
+      <a class="recent-posts__image" href="{{ post.url }}"><img loading="lazy" decoding="async" src="{{ post_image_url }}" alt="{{ post.title | escape }}"></a>
       {% endif %}
       <div class="recent-posts__content">
         <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
