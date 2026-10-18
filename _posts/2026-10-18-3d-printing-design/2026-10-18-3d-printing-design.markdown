@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Functional 3D Printing: Rebuilding Missing Parts for a Classic Mercedes"
-description: "Designed and printed replacement interior parts for a Mercedes-Benz W124, engineered for cabin heat and real loads, and shared free on Printables."
+title:  "Automotive 3D Printing: Rebuilding Missing Parts for a Classic Car"
+description: "Heat-resistant ASA replacement parts for a classic Mercedes-Benz W124, designed to be tough enough for real daily loads and shared free on Printables."
 date:   2026-10-18 10:00:00 +0200
 image:  w124-door-trim-installed.jpg
 tags:   [electronics-auto]
@@ -13,10 +13,10 @@ tags:   [electronics-auto]
 I drive a Mercedes-Benz W124, and parts for a car this old are either hard to find or gone for good. So when something was missing or broken, I designed a replacement, printed it and fitted it to the car. Then I published the models on Printables for free, so other W124 owners can print their own.
 
 ## How I approach it
-These are functional parts, not display pieces. They sit in a car cabin that gets hot, and some of them take real force every day. So the design starts with how the part will be used and how it can fail:
+Automotive parts are a different game from desk prints. A car cabin gets very hot in summer, and some of these parts take real force every day, so the design has to be right or the part simply breaks. That's why the design starts with how the part will be used and how it can fail:
 
-- **Material for the environment.** Cabin heat rules out PLA, so the parts are meant for ASA or PETG.
-- **Print orientation as part of the design.** Layer lines are the weak spot of a print, so I orient the model so the forces don't run along them.
+- **Heat-resistant material.** Cabin heat softens PLA, so I print automotive parts in ASA, which withstands high temperatures and UV.
+- **Designed to be tough.** Layer lines are the weak spot of a print, so print orientation is part of the design: forces must not run along them, and walls and joints are sized for the load.
 - **Designing around the printer.** A part that is too long for a normal print bed gets split, with a joint designed to hold.
 - **Honest notes.** Each model page says what worked, what didn't and what I would do differently.
 
