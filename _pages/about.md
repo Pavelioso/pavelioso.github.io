@@ -47,4 +47,8 @@ Over the years, I've had the opportunity to work in some amazing places like the
 
 Thanks for taking the time to get to know me a little better. I'm always up for new challenges and collaborations, so don't hesitate to get in touch!
 
+You can also find my videos, 3D-printable models and code here:
+
+{% include social-links.html labeled=true %}
+
 <hr>

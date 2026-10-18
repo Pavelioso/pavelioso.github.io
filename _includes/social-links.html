@@ -1,9 +1,17 @@
+{% comment %}
+  Social links from site.social.
+  Params: labeled (true = icon + visible name, used in hero/About; default = icon-only footer style)
+          class (extra CSS class on the wrapper)
+{% endcomment %}
 {% if site.social %}
-<div class="social">
+<div class="social{% if include.labeled %} social--labeled{% endif %}{% if include.class %} {{ include.class }}{% endif %}">
   <ul class="social__list list-reset">
     {% for social in site.social %}
+    {% assign social_name = social.name | default: "Social link" %}
     <li class="social__item">
-      <a class="social__link" href="{{social.link}}" aria-label="social icon"><i class="ion {{social.icon}}"></i></a>
+      <a class="social__link" href="{{ social.link }}" target="_blank" rel="noopener noreferrer"{% unless include.labeled %} aria-label="{{ social_name }}" title="{{ social_name }}"{% endunless %}>
+        <i class="ion {{ social.icon }}" aria-hidden="true"></i>{% if include.labeled %}<span class="social__label">{{ social_name }}</span>{% endif %}
+      </a>
     </li>
     {% endfor %}
   </ul>
