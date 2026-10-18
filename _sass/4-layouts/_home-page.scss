@@ -57,20 +57,75 @@
   }
 }
 
-/* Grid */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
+/* Grid
+   Same sizing pattern as the original Norlin theme: flex rows of 3 (2 on tablet,
+   1 on phones), and cards in a short last row grow to fill it (a lone card
+   becomes full width). On the homepage the first two non-featured posts are big
+   half-width cards, and featured posts sit in their own rows above them. */
+$grid-gap: 28px;
+$grid-gap-tablet: 24px;
+$grid-gap-mobile: 20px;
 
-  @media only screen and (max-width: $desktop) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $grid-gap;
+
+  > .article {
+    flex: 1 1 calc((100% - #{2 * $grid-gap}) / 3);
+    min-width: 0;
   }
 
-  @media only screen and (max-width: $tablet - 128px) {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 20px;
+  > .article--big {
+    flex-basis: calc((100% - #{$grid-gap}) / 2);
+  }
+
+  // ends the featured rows (cancels one row gap so spacing stays even)
+  .grid__break {
+    flex: 0 0 100%;
+    height: 0;
+    margin-top: -$grid-gap;
+  }
+
+  // while a filter is active: one plain, date-ordered grid
+  &.is-filtered {
+    .grid__break {
+      display: none;
+    }
+    > .article {
+      flex-grow: 0; // no stretched leftovers while filtering
+    }
+    > .article--big {
+      flex-basis: calc((100% - #{2 * $grid-gap}) / 3);
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    gap: $grid-gap-tablet;
+
+    > .article,
+    > .article--big,
+    &.is-filtered > .article--big {
+      flex-basis: calc((100% - #{$grid-gap-tablet}) / 2);
+    }
+
+    .grid__break {
+      margin-top: -$grid-gap-tablet;
+    }
+  }
+
+  @media only screen and (max-width: $tablet) {
+    gap: $grid-gap-mobile;
+
+    > .article,
+    > .article--big,
+    &.is-filtered > .article--big {
+      flex-basis: 100%;
+    }
+
+    .grid__break {
+      margin-top: -$grid-gap-mobile;
+    }
   }
 }
 
@@ -85,6 +140,7 @@
 
 .article__inner {
   position: relative;
+  container-type: inline-size; // lets wide (stretched) cards scale image/title
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -247,4 +303,40 @@
 
 .article__author-image {
   border-radius: 50%;
+}
+
+/* Wide cards (big half-width cards, stretched last-row cards like a lone
+   featured post): taller image, bigger title, image height capped so a
+   full-width card reads as a banner rather than a giant photo. */
+.article__image {
+  max-height: 300px;
+}
+
+@container (min-width: 560px) {
+  .article__image {
+    max-height: 380px;
+  }
+
+  .article__content {
+    padding: 24px 28px 26px;
+  }
+
+  .article__title {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+
+  .article__excerpt {
+    font-size: 16px;
+  }
+}
+
+@container (min-width: 900px) {
+  .article__image {
+    max-height: 440px;
+  }
+
+  .article__title {
+    font-size: 34px;
+  }
 }

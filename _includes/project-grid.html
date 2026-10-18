@@ -1,6 +1,10 @@
 {% comment %}
-  Responsive project grid.
-  Params: posts (array, required), filters (true to show client-side category filters)
+  Responsive project grid (flex rows, like the original Norlin layout: cards in a
+  short last row stretch to fill it).
+  Params: posts (array, required)
+          filters (true to show client-side category filters)
+          home (true = homepage pattern: featured posts first in their own rows,
+                then the rest, with the first two non-featured posts as big half-width cards)
 {% endcomment %}
 {% assign grid_posts = include.posts %}
 {% if grid_posts %}{% assign grid_posts = grid_posts | sort: "date" | reverse %}{% else %}{% assign grid_posts = "" | split: "" %}{% endif %}
@@ -27,11 +31,29 @@
     {% endif %}
 
     {% if grid_posts.size > 0 %}
+    {% if include.home %}
+    {% assign featured_posts = grid_posts | where: "featured", true %}
+    {% assign regular_posts = grid_posts | where_exp: "post", "post.featured != true" %}
+    <div class="grid grid--home">
+      {% for post in featured_posts %}
+        {% include article-content.html %}
+      {% endfor %}
+      {% if featured_posts.size > 0 %}<div class="grid__break" aria-hidden="true"></div>{% endif %}
+      {% for post in regular_posts %}
+        {% if forloop.index <= 2 %}
+          {% include article-content.html big=true %}
+        {% else %}
+          {% include article-content.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
     <div class="grid">
       {% for post in grid_posts %}
         {% include article-content.html %}
       {% endfor %}
     </div>
+    {% endif %}
     {% else %}
     <p class="projects__empty">Nothing here yet.</p>
     {% endif %}

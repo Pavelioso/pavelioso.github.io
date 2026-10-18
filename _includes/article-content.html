@@ -8,7 +8,7 @@
     {% endif %}
   {% endfor %}
 {% endfor %}
-<article class="article grid__post animate" data-groups="{{ post_groups | strip }}">
+<article class="article grid__post animate{% if include.big %} article--big{% endif %}" data-groups="{{ post_groups | strip }}" data-ts="{{ post.date | date: '%s' }}">
   <div class="article__inner">
 
     {% if post.image %}
