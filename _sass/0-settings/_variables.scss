@@ -13,10 +13,15 @@ $global-transition: all .2s;
 // Color Variables
 // *****************
 $brand-color: #ff7b7b;
+$brand-color-2: #ff5a6e; // deeper coral-red, used for the accent gradient
+$accent-gradient: linear-gradient(135deg, $brand-color 0%, $brand-color-2 100%);
 $dark: #09080f;
 $blue-dark: #17151E;
-$gray: #aaa;
-$light-gray: #eee;
+$gray: #b4b4bd;
+$muted: #c9c9d1; // body copy on dark backgrounds
+$light-gray: #f0f0f3;
+$surface: #16151f; // card / panel surface
+$border-subtle: rgba(255, 255, 255, 0.07);
 $white: #fff;
 
 // Body Color
@@ -29,7 +34,7 @@ $background-color: #0f0e15;
 // *****************
 // Typography
 // *****************
-$base-font-size: 18px;
+$base-font-size: 19px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
