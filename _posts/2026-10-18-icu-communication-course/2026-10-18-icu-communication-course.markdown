@@ -11,7 +11,7 @@ tags:   [programming, interactive]
 [VISIT THE LIVE COURSE](https://komunikace-icu.cz)
 
 ## What is this?
-"Difficult communication in the ICU environment" is an online course for healthcare teams. It covers the conversations nobody really wants to have: delivering bad news (the SPIKES protocol), handling emotions (NURSE), end-of-life decision making, working with your own emotions, and clinical debriefing, including a VR scenario.
+"Difficult communication in the ICU environment" is an online course for healthcare teams. It covers the conversations nobody really wants to have: delivering bad news with a structured, step-by-step approach, responding to emotions, end-of-life decision making, working with your own emotions, and clinical debriefing, including a VR scenario.
 
 The course has 5 core training areas and 4 virtual patient checkpoints. It is self-paced and access doesn't expire. Each chapter is built the same way: short lessons, printable materials, a virtual patient, a test and a summary.
 
@@ -19,7 +19,7 @@ The course has 5 core training areas and 4 virtual patient checkpoints. It is se
 I was the sole product owner, and I did the whole development. I programmed the entire site, built the custom Moodle plugins and made the interactive virtual patients. So every decision about how something should work, and then actually making it work, landed on my desk.
 
 ## The problem
-You can read about SPIKES all day, but the hard part is saying it out loud to someone who is upset. Stock Moodle is good at hosting lessons and quizzes, not at letting you practice a conversation. It also doesn't look or feel like a modern course out of the box, and it doesn't sell itself. So most of the job was bending Moodle into something it wasn't really made for, without breaking the parts it is good at.
+You can read about communication frameworks all day, but the hard part is saying it out loud to someone who is upset. Stock Moodle is good at hosting lessons and quizzes, not at letting you practice a conversation. It also doesn't look or feel like a modern course out of the box, and it doesn't sell itself. So most of the job was bending Moodle into something it wasn't really made for, without breaking the parts it is good at.
 
 ![Public course homepage listing the 5 core training areas and 4 virtual patient checkpoints](icu-objectives.jpg)
 *The public course homepage: 5 training areas, 4 virtual patient checkpoints*
@@ -55,8 +55,8 @@ Chapters go one after another, with short lessons and tips, materials you can pr
 ![Course overview page with a collapsible nested chapter tree on the left and branded teal gradient section headers](icu-course-overview.jpg)
 *Course overview: nested chapter tree and branded section headers from the custom course format*
 
-![Lesson 4.2.1 on the SPIKES protocol with cyan Tip boxes and a sticky chapter progress bar at the bottom](icu-lesson-spikes.jpg)
-*A SPIKES lesson with Tip boxes and the sticky chapter progress bar*
+![Lesson 4.2.1 from the chapter on delivering bad news, with cyan Tip boxes and a sticky chapter progress bar at the bottom](icu-lesson-tips.jpg)
+*A lesson on delivering bad news, with Tip boxes and the sticky chapter progress bar*
 
 ### Storefront and payments
 The course is sold directly on the site. A single-course storefront and a registration gate handle access, and payments go through Stripe.
