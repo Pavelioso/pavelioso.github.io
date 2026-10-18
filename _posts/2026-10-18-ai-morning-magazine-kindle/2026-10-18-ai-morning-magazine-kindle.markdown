@@ -4,7 +4,6 @@ title:  "Autonomous AI Magazine: A Self-Hosted Research Bot That Sends a New Iss
 description: "A personal AI study: a self-hosted Open WebUI setup where an autonomous, recursive agent researches a topic, creates images, lays it out as a magazine and emails it to my Kindle every three days, so the morning starts with reading instead of doomscrolling."
 date:   2026-10-18 12:00:00 +0200
 image:  curious-works-cover.webp
-featured: true
 tags:   [concept, interactive, programming]
 ---
 
