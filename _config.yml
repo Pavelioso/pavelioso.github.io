@@ -23,14 +23,14 @@ author:
 hero:
   eyebrow: Pavel Nečas # small label above the headline
   title: Multidisciplinary problem solver
-  description: > 
-    I build products—from AI platforms and web apps to interactive media and hardware R&D. 
-    Over 14+ years, I’ve worked across systems architecture, UI/UX, 3D/VR, and rapid prototyping, bridging the gap between raw ideas and shipped code. Whether leading product development or building from scratch, I focus on turning complex technical concepts into pragmatic, scalable tools. 
-    
+  # Longer intro (not rendered on the homepage; kept in sync with the subline)
+  description: >
+    Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning.
   image: '/images/backgrounds/bg-1.jpg'
   # Short lines shown in the homepage hero, under the headline
-  pitch: From games and live events to AI platforms and cars.
-  subline: 14+ years in cross-functional teams across systems architecture, UI/UX, 3D/VR, and rapid prototyping—bridging the gap between raw ideas and shipped code.
+  # Optional bold line between headline and subline; left empty because the subline already lists the fields
+  pitch:
+  subline: "Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning."
 
 #-------------------------------
 # Homepage project filters (client-side). A project matches a filter if it has any of the listed tags.
