@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Concept Art for a bar in San Francisco
-description: Friend needed a quick something to have in hand for an underground club bar on Market Street. 
+title:  "SF Underground Club: Investor Pitch Visuals in 2 Days"
+description: "Concept renders for a friend's club/bar on Market Street to show investors (Cinema 4D, Octane, Photoshop)."
 date:   2015-03-24 15:01:35 +0300
 image:  bar-concept-2.jpg
 tags:   [concept, events]

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Fortnite Racing Mod for American Cancer Society
-description: A fundraising Fortnite Island for Carper Creative and ACS
+title:  "Fortnite Charity Racing Island for American Cancer Society"
+description: "Designed and built a UEFN fundraising mod for Carper Creative; redesigned the map 3× to fit Fortnite's memory limit."
 date:   2023-06-18 15:01:35 +0300
 image:  fortnite_thumb.webp
 fallback_image: acs_fallback.jpg

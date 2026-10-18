@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  OWL MOUNTAINS - Art Direction and Game World Concept
-description: Check out a concept for a game world, complete with art direction.
+title:  "Owl Mountains: Horror Game World & Indie Art Pipeline"
+description: "Story, art direction and a low-budget environment pipeline for a horror adventure in a legendary Nazi bunker complex, tested in sample scenes."
 date:   2018-05-16 15:01:35 +0300
 image:  bunker-lights2.jpg
 tags:   [concept, gamedev, thoughts]

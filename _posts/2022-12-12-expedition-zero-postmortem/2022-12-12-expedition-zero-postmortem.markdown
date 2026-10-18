@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  My First Indie - Expedition Zero - Postmortem
-description: A little step back to look at development of my first indie game.
+title:  "Expedition Zero: Lessons From Shipping My First Indie Game"
+description: "Our survival game, released on Steam after years of work: what didn't work and what I'd do differently."
 date:   2022-12-12 18:05:55 +0300
 image:  ez1_low.webp
 fallback_image: ez1_fallback.jpg

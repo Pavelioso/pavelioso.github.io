@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Sleeping Trees Trailer
-description: Recording scenes in Unreal Engine using Vive and motion tracking, and other gimmicks.
+title:  "Sleeping Trees: Game Teaser Shot With Vive Motion Capture"
+description: "Low-budget teaser for our indie concept: character motion recorded with an HTC Vive straight into Unreal's Sequencer; assets later reused."
 date:   2017-07-15 15:01:35 +0300
 image:  sleepingtrees.gif
 tags:   [gamedev, concept]

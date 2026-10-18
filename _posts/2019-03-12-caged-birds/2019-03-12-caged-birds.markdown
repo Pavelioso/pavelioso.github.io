@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  The Caged Birds Game Concept
-description: An escape from a gulag simulator.
+title:  "The Caged Birds: Top-Down Stealth Gulag Escape Concept"
+description: "Satirical game concept: a pianist prisoner sneaks out, trades and solves mysteries, with the prison as the hub and a final escape act."
 date:   2019-03-12 15:01:35 +0300
 image:  cagedbirds.gif
 tags:   [gamedev, concept, thoughts]
