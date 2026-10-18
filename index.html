@@ -11,6 +11,7 @@ layout: default
   {% endif %}
   <div class="container">
     <div class="hero__content">
+      {% if site.hero.eyebrow %}<p class="hero__eyebrow">{{ site.hero.eyebrow }}</p>{% endif %}
       <h1 class="hero__title">{{site.hero.title}}</h1>
       <p class="hero__pitch">{{ site.hero.pitch | default: site.hero.description }}</p>
       {% if site.hero.subline %}<p class="hero__desc">{{ site.hero.subline }}</p>{% endif %}
