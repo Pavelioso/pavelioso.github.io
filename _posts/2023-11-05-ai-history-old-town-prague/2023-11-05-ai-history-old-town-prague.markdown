@@ -3,7 +3,7 @@ layout: post
 title:  "Generative AI for Heritage: Animating 600 Years of Prague's Old Town with ComfyUI"
 description: "Prototype for a history exhibition on Prague's Old Town Square: can generative AI tell a historical story? I built the ComfyUI workflows that turn line drawings into animated period scenes, plus the camera previs."
 date:   2023-11-05 12:00:00 +0100
-image:  staromak-ai-cover.jpg
+image:  staromak-ai-cover.webp
 tags:   [concept, interactive]
 ---
 
@@ -34,6 +34,9 @@ The ComfyUI workflow:
 
 ![Four AI-generated versions of the same Powder Tower view: dusk, golden haze, a hand-drawn cartoon style and a warm pastel style](staromak-style-variants.jpg)
 *Same view, different looks: testing which visual style suits the exhibition*
+
+![AI-generated golden-hour painting of the Powder Tower and the Royal Court buildings on an empty square](staromak-ai-cover.jpg)
+*A golden-hour take on the same corner, styled through IP-Adapter*
 
 I also tested animated characters, such as soldiers and a medieval knight, generated from line-art animation sequences.
 
