@@ -13,7 +13,7 @@ tags:   [programming, events]
 
 
 I don't have many screenshots for this project, but I was approached by Prague's 3DSense to program interactive full year installation for Prague's Signal Festival. 
-This installation was designed for kids to play with spheres projected on a wall, where different "themes" were avalaible, switching the gameplay in each theme. 
+This installation was designed for kids to play with spheres projected on a wall, where different "themes" were available, switching the gameplay in each theme. 
 Programmed in Unity, some features:
 - Input is from a 3D depth camera.
 - Various modes, prepared a command UI to be able to fine tune everything directly on site. 

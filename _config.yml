@@ -27,13 +27,24 @@ hero:
     Over 14+ years, I’ve worked across systems architecture, UI/UX, 3D/VR, and rapid prototyping, bridging the gap between raw ideas and shipped code. Whether leading product development or building from scratch, I focus on turning complex technical concepts into pragmatic, scalable tools. 
     
   image: '/images/backgrounds/bg-1.jpg'
+  # Short lines shown in the homepage hero (taken from the description above)
+  pitch: I build products—from AI platforms and web apps to interactive media and hardware R&D.
+  subline: 14+ years across systems architecture, UI/UX, 3D/VR, and rapid prototyping—bridging the gap between raw ideas and shipped code.
+
+#-------------------------------
+# Homepage project filters (client-side). A project matches a filter if it has any of the listed tags.
+# A filter button is only shown when at least one project matches it.
+project_filters:
+  - {label: Gamedev, slug: gamedev, tags: [gamedev, gamedesign, leveldesign, VR]}
+  - {label: Events, slug: events, tags: [events, installation, videomapping]}
+  - {label: Electronics & Auto, slug: electronics-auto, tags: [electronics-auto]}
 
 #-------------------------------
 # Gamedev Section Settings
 gamedev:
   title: My Gamedev Journey
   description: > 
-    These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects aswell. 
+    These are some of my gamedev works. I've released one indie game called Expedition Zero, and I've included here some of my VR projects as well. 
 
 #-------------------------------
 # Events Settings
@@ -64,7 +75,8 @@ contact:
 
 #-------------------------------
 # Footer section
-# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Example of adding a new link - {name: "GitHub", icon: "ion-logo-github", link: "https://github.com"}
+# `name` is used as the visible label (hero/About) and the accessible label (footer icons).
 # Other icons can be found at https://ionicons.com/v4/
 social:
 # - {icon: "ion-logo-twitter", link: "https://twitter.com"}
@@ -72,8 +84,9 @@ social:
 # - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # - {icon: "ion-logo-instagram", link: "https://instagram.com"}
 # - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCbjAhPuKCbcNuSiPArQujiA"}
-- {icon: "ion-logo-github", link: "https://github.com/Pavelioso/"}
+- {name: "YouTube", icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCbjAhPuKCbcNuSiPArQujiA"}
+- {name: "Printables", icon: "ion-md-cube", link: "https://www.printables.com/@Pavelios_4547983"} # Ionicons has no Printables logo; cube = 3D printing
+- {name: "GitHub", icon: "ion-logo-github", link: "https://github.com/Pavelioso/"}
 # - {icon: "ion ion-logo-vimeo", link: "https://vimeo.com/"}
 
 

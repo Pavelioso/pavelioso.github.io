@@ -2,51 +2,26 @@
 layout: default
 ---
 
-
 <!-- begin hero -->
-{% if site.hero.image %}
-<section class="hero">
-  <div class="hero__inner">
-    <div class="hero__image">
-      <img class="lazy" data-src="{{site.baseurl}}{{site.hero.image}}" alt="{{site.hero.title}}">
-    </div>
+<section class="hero{% unless site.hero.image %} hero--plain{% endunless %}">
+  {% if site.hero.image %}
+  <div class="hero__image">
+    <img src="{{site.baseurl}}{{site.hero.image}}" alt="" fetchpriority="high" decoding="async" onerror="this.remove()">
+  </div>
+  {% endif %}
+  <div class="container">
     <div class="hero__content">
       <h1 class="hero__title">{{site.hero.title}}</h1>
-      <p class="hero__desc">{{site.hero.description}}</p>
-    </div>
-  </div>
-</section>
-{% else %}
-<section class="hero-without-image">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <h1 class="hero__title">{{site.hero.title}}</h1>
-      <p class="hero__desc">{{site.hero.description}}</p>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- begin hero -->
-
-{% include featured-posts.html %}
-
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="container__inner">
-        <div class="row grid">
-          {% if site.posts.size > 0 %}
-            {% assign posts_list = paginator.posts | default: site.posts %}
-            {% for post in posts_list %}
-              {% unless post.featured == true %}
-                {% include article-content.html %}
-              {% endunless %}
-            {% endfor %}
-          {% endif %}
-        </div>
+      <p class="hero__pitch">{{ site.hero.pitch | default: site.hero.description }}</p>
+      {% if site.hero.subline %}<p class="hero__desc">{{ site.hero.subline }}</p>{% endif %}
+      <div class="hero__actions">
+        <a class="button button--accent" href="#projects">See projects</a>
+        <a class="button button--ghost" href="{{ site.baseurl }}/contact/">Contact</a>
       </div>
+      {% include social-links.html labeled=true class="hero__social" %}
     </div>
   </div>
-</div>
+</section>
+<!-- end hero -->
 
-{% include pagination.html %}
+{% include project-grid.html posts=site.posts filters=true %}

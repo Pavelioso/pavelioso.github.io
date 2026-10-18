@@ -1,0 +1,39 @@
+{% comment %}
+  Responsive project grid.
+  Params: posts (array, required), filters (true to show client-side category filters)
+{% endcomment %}
+{% assign grid_posts = include.posts %}
+{% if grid_posts %}{% assign grid_posts = grid_posts | sort: "date" | reverse %}{% else %}{% assign grid_posts = "" | split: "" %}{% endif %}
+<section class="projects" id="projects" aria-label="Projects">
+  <div class="container">
+    {% if include.filters %}
+    <div class="filters" role="group" aria-label="Filter projects by category" hidden>
+      <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All <span class="filter__count">{{ grid_posts.size }}</span></button>
+      {% for filter in site.project_filters %}
+        {% assign filter_count = 0 %}
+        {% for post in grid_posts %}
+          {% for filter_tag in filter.tags %}
+            {% if post.tags contains filter_tag %}
+              {% assign filter_count = filter_count | plus: 1 %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        {% if filter_count > 0 %}
+        <button type="button" class="filter" data-filter="{{ filter.slug }}" aria-pressed="false">{{ filter.label }} <span class="filter__count">{{ filter_count }}</span></button>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if grid_posts.size > 0 %}
+    <div class="grid">
+      {% for post in grid_posts %}
+        {% include article-content.html %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="projects__empty">Nothing here yet.</p>
+    {% endif %}
+  </div>
+</section>

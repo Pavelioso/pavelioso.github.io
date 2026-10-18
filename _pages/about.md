@@ -13,7 +13,7 @@ I tend to thrive in smaller, nimble teams where challenges vary daily and there�
 
 ## What do I do?
 
-I’m a product-focused generalist who takes ideas from concept to completion. I bridges the gap between client expectations and technical execution—whether that means architecting system logic, mapping UI/UX, rapidly prototyping MVP code, or assembling and leading cross-functional teams.
+I’m a product-focused generalist who takes ideas from concept to completion. I bridge the gap between client expectations and technical execution—whether that means architecting system logic, mapping UI/UX, rapidly prototyping MVP code, or assembling and leading cross-functional teams.
 
 I don’t treat the computer screen as a boundary. I genuinely love Technical R&D and connecting software to the physical world—wiring microcontrollers, running oscilloscope diagnostics, designing 3D-printed parts, and building custom tooling for legacy machinery. 
 
@@ -46,5 +46,9 @@ My hobby is classic cars, which I like to fix. They are much better than the ste
 Over the years, I've had the opportunity to work in some amazing places like the Netherlands, Sweden, the United States, and the Czech Republic. It's been a great journey, and it's great how many people I've met during my work travels.
 
 Thanks for taking the time to get to know me a little better. I'm always up for new challenges and collaborations, so don't hesitate to get in touch!
+
+You can also find my videos, 3D-printable models and code here:
+
+{% include social-links.html labeled=true %}
 
 <hr>

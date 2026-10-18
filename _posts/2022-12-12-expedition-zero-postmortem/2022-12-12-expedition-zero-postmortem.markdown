@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  My First Indie - Expedition Zero - Postmortem
-description: A little step back to look at developement of my first indie game.
+description: A little step back to look at development of my first indie game.
 date:   2022-12-12 18:05:55 +0300
 image:  ez1_low.webp
 fallback_image: ez1_fallback.jpg
@@ -31,7 +31,7 @@ My biggest game dev project yet. Since I've spent few years making it, it is a s
 
 Expedition Zero is a game where you are trying to get out of a walled off zone. While you meet a mysterious trader, you are tasked with killing a monster in exchange for a ticket out of the zone. While on a mission, you need to survive harsh conditions, cold and radiation.
 
-We started developing this few years back, and we went through multiple concepts and MVPs to see what fits the best. Because of time constrains, we had to throw most of the stuff away - for example sled that you could take with you and modify, food and water, sleeping, day and night cycle. 
+We started developing this few years back, and we went through multiple concepts and MVPs to see what fits the best. Because of time constraints, we had to throw most of the stuff away - for example sled that you could take with you and modify, food and water, sleeping, day and night cycle. 
 
 Here are my thoughts that I would relay to any other game dev.
 

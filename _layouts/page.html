@@ -4,11 +4,11 @@ layout: default
 
 <!-- begin hero -->
 {% if page.image %}
-<section class="hero">
-  <div class="hero__inner">
-    <div class="hero__image">
-      <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-    </div>
+<section class="hero hero--page">
+  <div class="hero__image">
+    <img src="{{site.baseurl}}{{page.image}}" alt="" fetchpriority="high" decoding="async" onerror="this.remove()">
+  </div>
+  <div class="container">
     <div class="hero__content">
       <h1 class="hero__title">{{page.title}}</h1>
     </div>
@@ -23,7 +23,7 @@ layout: default
   </div>
 </section>
 {% endif %}
-<!-- begin hero -->
+<!-- end hero -->
 
 <!-- begin page -->
 <div class="container">

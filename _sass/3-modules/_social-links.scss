@@ -49,3 +49,76 @@
     }
   }
 }
+
+/* Labeled social links (hero, About page) */
+.social.social--labeled {
+  text-align: left;
+  margin-bottom: 0;
+
+  .social__list {
+    justify-content: flex-start;
+    gap: 8px 20px;
+  }
+
+  .social__item {
+    margin: 0;
+  }
+
+  .social__link {
+    display: inline-flex;
+    gap: 7px;
+    width: auto;
+    height: auto;
+    padding: 4px 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .2px;
+    color: $muted;
+    background: none;
+    border-radius: 0;
+
+    i {
+      font-size: 18px;
+      line-height: 1;
+      transition: $global-transition;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: $brand-color;
+      background: none;
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .social__item {
+      margin-bottom: 0;
+    }
+    .social__link {
+      width: auto;
+      height: auto;
+      line-height: 1;
+      font-size: 14px;
+    }
+  }
+}
+
+.hero__social {
+  margin-top: 22px;
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 18px;
+  }
+}
+
+.page__content .social--labeled {
+  margin: 8px 0 40px;
+
+  .social__link {
+    border-bottom: 0;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}

@@ -55,14 +55,6 @@ $(document).ready(function() {
   });
 
 
-  /* =======================
-  // Animation Load Page
-  ======================= */
-  setTimeout(function(){
-    $('body').addClass('is-in');
-  },150)
-
-
   // =====================
   // Simple Jekyll Search
   // =====================
@@ -76,11 +68,32 @@ $(document).ready(function() {
 
 
   /* =======================
-  // LazyLoad Images
+  // Project Filters (homepage)
   ======================= */
-  var lazyLoadInstance = new LazyLoad({
-    elements_selector: '.lazy'
-  })
+  var filterBar = document.querySelector('.filters');
+  if (filterBar) {
+    var filterButtons = filterBar.querySelectorAll('.filter');
+    var cards = document.querySelectorAll('.projects .grid .article');
+
+    filterBar.hidden = false;
+
+    filterBar.addEventListener('click', function (event) {
+      var button = event.target.closest('.filter');
+      if (!button) return;
+      var group = button.getAttribute('data-filter');
+
+      filterButtons.forEach(function (b) {
+        var active = b === button;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+
+      cards.forEach(function (card) {
+        var groups = (card.getAttribute('data-groups') || '').split(' ');
+        card.hidden = !(group === 'all' || groups.indexOf(group) !== -1);
+      });
+    });
+  }
 
 
   // =====================
@@ -101,10 +114,6 @@ $(document).ready(function() {
     }).done(function(data) {
       var posts = $('.grid__post', data);
       $('.grid').append(posts);
-
-      var lazyLoadInstance = new LazyLoad({
-        elements_selector: '.lazy'
-      })
 
       $load_posts_button.text('Load more');
       pagination_next_page_number++;

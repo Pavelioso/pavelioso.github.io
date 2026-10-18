@@ -1,18 +1,35 @@
 /* Header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   width: 100%;
-  margin: 60px 0;
+  padding: 20px 0;
   transition: $global-transition;
   color: $white;
+  border-bottom: 1px solid $border-subtle;
 
-  &.header--top {
+  // Translucent, blurred bar. The blur lives on a pseudo-element so the header
+  // itself does not become a containing block for the fixed mobile menu overlay.
+  &::before {
+    content: "";
     position: absolute;
-    top: 0;
-    z-index: 100;
+    inset: 0;
+    z-index: -1;
+    background-color: rgba($background-color, .92);
+    pointer-events: none;
+  }
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    &::before {
+      -webkit-backdrop-filter: saturate(160%) blur(14px);
+      backdrop-filter: saturate(160%) blur(14px);
+      background-color: rgba($background-color, .68);
+    }
   }
 
   @media only screen and (max-width: $desktop) {
-    margin: 32px 0;
+    padding: 14px 0;
   }
 }
 
@@ -130,14 +147,31 @@
   
       .nav__link {
         position: relative;
-        font-size: 12px;
+        padding: 6px 0;
+        font-size: 13px;
         font-weight: 700;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-decoration: none;
         color: $text-color;
-        &:hover {
-          color: $brand-color;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 2px;
+          border-radius: 2px;
+          background: $accent-gradient;
+          transform: scaleX(0);
+          transition: transform .2s ease;
+        }
+        &:hover,
+        &.is-active {
+          color: $white;
+          &::after {
+            transform: scaleX(1);
+          }
         }
       }
     }
@@ -215,7 +249,7 @@
 
   .nav__icon-menu {
     display: none;
-    margin-right: 16px;
+    margin-right: 0;
     @media only screen and (max-width: $desktop) {
       display: block;
     }

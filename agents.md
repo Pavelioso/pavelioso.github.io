@@ -23,3 +23,9 @@ and `logo:` is empty, the header falls back to rendering `site.title` as text.
 `show_search: false` hides the search trigger. When both are false, the header
 adds state classes and `_sass/3-modules/_header.scss` centers the desktop nav
 while keeping the mobile menu icon aligned to the right.
+
+Project cards and grids are rendered by `_includes/project-grid.html` (grid +
+optional client-side filters) and `_includes/article-content.html` (one card).
+Homepage filter buttons come from `project_filters` in `_config.yml`; a button
+is only shown when at least one post has one of its tags. The homepage hero
+text comes from `hero.title`, `hero.pitch` and `hero.subline`.

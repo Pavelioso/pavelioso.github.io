@@ -2,19 +2,22 @@
 .post,
 .page {
   position: relative;
-  max-width: 760px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
 .post-head {
-  margin-bottom: 64px;
+  margin: 48px 0 64px;
+  @media only screen and (max-width: $tablet) {
+    margin-top: 24px;
+  }
 
   .row {
     align-items: center;
   }
 
   .post-head__box {
-    margin-left: 32px;
+    margin-left: 40px;
   }
 
   @media only screen and (max-width: $desktop) {
@@ -48,8 +51,8 @@
 
 .image-box {
   position: relative;
-  padding-top: 90%;
-  min-height: 280px;
+  padding-top: 72%;
+  min-height: 240px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 5px 10px 0px rgba(0,0,0,.15);
@@ -62,23 +65,21 @@
 }
 
 .post__meta {
-  line-height: 13px;
-
-  .post__date,
-  .post__minutes {
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 500;
-  }
+  line-height: 1;
 
   .post__date {
-    color: $gray;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $brand-color;
   }
 }
 
 .post__title {
-  margin: 20px 0 20px;
+  margin: 16px 0 20px;
   font-size: 56px;
+  color: $white;
   line-height: 1;
 
   @media only screen and (max-width: 1200px) {
@@ -100,8 +101,14 @@
 }
 
 .post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
   .post__tag {
-    padding: 4px 8px;
+    display: inline-block;
+    padding: 6px 10px;
+    text-transform: capitalize;
     margin: 2px 0;
     font-size: 12px;
     line-height: 10px;
@@ -156,15 +163,39 @@
 
 .post__content,
 .page__content {
-  color: $gray;
+  color: $muted;
   a {
-    border-bottom: 2px solid rgba($text-color, .1);
+    color: $brand-color;
+    border-bottom: 1px solid rgba($brand-color, .35);
     &:hover {
       border-color: $brand-color;
-      color: $text-color;
+      color: lighten($brand-color, 6%);
       text-decoration: none;
     }
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+  strong {
+    color: $light-gray;
+  }
+  a.button {
+    border-bottom: 0;
+    &--accent,
+    &--primary {
+      color: $dark;
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
+}
+
+.post__lead {
+  margin: 0 0 24px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $muted;
 }
 
 /* Post Share */
