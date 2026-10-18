@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sleeping Trees Trailer
-description: Recording scenes in Unreal Engine using Vive and motion tracking, and other gimmics.
+description: Recording scenes in Unreal Engine using Vive and motion tracking, and other gimmicks.
 date:   2017-07-15 15:01:35 +0300
 image:  sleepingtrees.gif
 tags:   [gamedev, concept]

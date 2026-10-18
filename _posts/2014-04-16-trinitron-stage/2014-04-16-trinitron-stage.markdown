@@ -8,7 +8,7 @@ tags:   [concept, events, industrialdesign]
 ---
 I don't know why I've called it Trinitron, I guess triangle = trinity, and when I was a kid my dad had a Trinitron TV? 
 
-Anyway, there was an event space (doubling also as a creative office), during few evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something rememberable, that we could eventually use for other events aswell.
+Anyway, there was an event space (doubling also as a creative office), during few evenings, some people came over and had parties and such. So my boss requested a stage backdrop. Something "cool" and something memorable, that we could eventually use for other events as well.
 
 
 

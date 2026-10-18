@@ -13,7 +13,7 @@ I tend to thrive in smaller, nimble teams where challenges vary daily and there�
 
 ## What do I do?
 
-I’m a product-focused generalist who takes ideas from concept to completion. I bridges the gap between client expectations and technical execution—whether that means architecting system logic, mapping UI/UX, rapidly prototyping MVP code, or assembling and leading cross-functional teams.
+I’m a product-focused generalist who takes ideas from concept to completion. I bridge the gap between client expectations and technical execution—whether that means architecting system logic, mapping UI/UX, rapidly prototyping MVP code, or assembling and leading cross-functional teams.
 
 I don’t treat the computer screen as a boundary. I genuinely love Technical R&D and connecting software to the physical world—wiring microcontrollers, running oscilloscope diagnostics, designing 3D-printed parts, and building custom tooling for legacy machinery. 
 
