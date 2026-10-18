@@ -4,7 +4,7 @@ title:  "Facebook F8: 60 m Live Projection Fed by Guest RFID Data"
 description: "Content for a 60-meter ceiling installation with 8× 40k-lumen projectors; visuals pulled in attendees' profile photos via Facebook's API and RFID."
 date:   2014-04-30 15:01:35 +0300
 image:  f8-photo-1.jpg
-tags:   [events, videomapping]
+tags:   [events, videomapping, interactive]
 featured: true
 ---
 

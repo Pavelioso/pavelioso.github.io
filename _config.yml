@@ -38,6 +38,9 @@ hero:
 project_filters:
   - {label: Gamedev, slug: gamedev, tags: [gamedev, gamedesign, leveldesign, VR]}
   - {label: Events, slug: events, tags: [events, installation, videomapping]}
+  - {label: Concept, slug: concept, tags: [concept]}
+  - {label: Interactive Tech, slug: interactive, tags: [interactive]}
+  - {label: Programming, slug: programming, tags: [programming]}
   - {label: Electronics & Auto, slug: electronics-auto, tags: [electronics-auto]}
 
 #-------------------------------

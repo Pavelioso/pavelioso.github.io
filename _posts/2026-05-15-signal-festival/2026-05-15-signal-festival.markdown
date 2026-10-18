@@ -5,7 +5,7 @@ description: "Programmed a Unity installation for 3DSense: depth-camera body tra
 date:   2026-05-15 15:01:35 +0100
 image:  signal_short_clip.webp
 fallback_image: signal_fallback.jpg
-tags:   [programming, events]
+tags:   [programming, events, interactive]
 ---
 
 

@@ -5,7 +5,7 @@ description: "Designed and built a UEFN fundraising mod for Carper Creative; red
 date:   2023-06-18 15:01:35 +0300
 image:  fortnite_thumb.webp
 fallback_image: acs_fallback.jpg
-tags:   [gamedesign, leveldesign]
+tags:   [gamedesign, leveldesign, programming]
 ---
 
 ![stage](level_1.jpg)

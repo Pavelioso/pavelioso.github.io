@@ -5,7 +5,7 @@ description: "Our survival game, released on Steam after years of work: what did
 date:   2022-12-12 18:05:55 +0300
 image:  ez1_low.webp
 fallback_image: ez1_fallback.jpg
-tags:   [gamedev, thoughts]
+tags:   [gamedev, thoughts, programming]
 featured: true
 ---
 
