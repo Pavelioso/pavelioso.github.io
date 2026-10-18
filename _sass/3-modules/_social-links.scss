@@ -26,11 +26,14 @@
     font-size: 16px;
     line-height: 40px;
     border-radius: 8px;
-    color: $white;
+    color: var(--brand, #{$white}); // brand color set per link in _config.yml
     background-color: $blue-dark;
-    &:hover {
-      color: $dark;
-      background-color: $brand-color;
+    border: 1px solid rgba($white, .08);
+    &:hover,
+    &:focus-visible {
+      color: var(--brand, #{$white});
+      background-color: lighten($blue-dark, 8%);
+      border-color: rgba($white, .35);
     }
   }
 
@@ -88,15 +91,14 @@
     i {
       font-size: 18px;
       line-height: 1;
-      color: $brand-color;
-      transition: $global-transition;
+      color: var(--brand, #{$brand-color}); // brand color set per link in _config.yml
     }
 
     &:hover,
     &:focus-visible {
       color: $white;
-      border-color: $brand-color;
-      background: rgba($brand-color, .14);
+      border-color: rgba($white, .5);
+      background: rgba($white, .12);
     }
   }
 
@@ -148,7 +150,7 @@
     border-bottom: 1px solid rgba($white, .22);
     &:hover {
       color: $white;
-      border-color: $brand-color;
+      border-color: rgba($white, .5);
     }
   }
 }
