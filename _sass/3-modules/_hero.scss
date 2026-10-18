@@ -115,14 +115,24 @@
 }
 
 .hero__desc {
-  max-width: 620px;
+  max-width: 64ch; // readable line length for the longer intro paragraph
   margin: 0;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.6;
-  color: $muted;
+  color: $light-gray;
+  text-wrap: pretty;
 
   @media only screen and (max-width: $mobile) {
     font-size: 16px;
+  }
+}
+
+// No pitch line: give the intro a little more room under the headline
+.hero__title + .hero__desc {
+  margin-top: 20px;
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 14px;
   }
 }
 
