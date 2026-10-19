@@ -2,9 +2,13 @@
 # General Site Settings
 title: PAVEL NEČAS
 logo: # You can add own logo. For example '/images/logo.png'.
-description: NONODE - Personal site of Pavel Nečas.
+description: "Ahoj, I'm Pavel. A multidisciplinary problem solver working across games, live events, 3D, web platforms and, more recently, AI."
+# Link previews (WhatsApp, LinkedIn, Slack, X...). Homepage <title> and og:title; posts use their own title.
+seo_title: "Pavel Nečas – Creative technologist & programmer"
+# Default share image (1200x630 JPG, keep under ~300 KB for WhatsApp). Posts with an `image:` use their own cover.
+og_image: /images/og-image.jpg
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://pavelnecas.com" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.pavelnecas.com" # The base hostname & protocol for your site, e.g. http://example.com
 
 header:
   show_logo: false

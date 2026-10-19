@@ -3,8 +3,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+  {%- if page.title and page.url != "/" -%}
+    {%- assign seo_title = page.title | append: " | Pavel Nečas" -%}
+    {%- if page.collection == "posts" -%}{%- assign og_title = page.title -%}{%- else -%}{%- assign og_title = seo_title -%}{%- endif -%}
+  {%- else -%}
+    {%- assign seo_title = site.seo_title | default: site.title -%}
+    {%- assign og_title = seo_title -%}
+  {%- endif -%}
+  {%- if page.description -%}
+    {%- assign seo_description = page.description | strip_html | strip_newlines | truncate: 160 -%}
+  {%- else -%}
+    {%- assign seo_description = site.description -%}
+  {%- endif -%}
+  {%- comment -%} Share image: a post's `og_image:` (optional override), else its cover `image:`, else the site default {%- endcomment -%}
+  {%- assign og_image_w = nil -%}
+  {%- assign og_src = page.og_image | default: page.image -%}
+  {%- if og_src and page.collection == "posts" -%}
+    {%- assign og_first_char = og_src | slice: 0 -%}
+    {%- if og_src contains '://' -%}
+      {%- assign og_image = og_src -%}
+    {%- elsif og_first_char == '/' -%}
+      {%- assign og_image = og_src | absolute_url -%}
+    {%- else -%}
+      {%- assign og_image = page.url | append: og_src | absolute_url -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign og_image = site.og_image | absolute_url -%}
+    {%- assign og_image_w = 1200 -%}
+  {%- endif %}
+  <title>{{ seo_title | escape }}</title>
+  <meta name="description" content="{{ seo_description | escape }}">
+
+  <!-- Link previews (Open Graph / Twitter) -->
+  <meta property="og:site_name" content="Pavel Nečas">
+  <meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ og_title | escape }}">
+  <meta property="og:description" content="{{ seo_description | escape }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:secure_url" content="{{ og_image }}">
+  {%- if og_image_w %}
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  {%- endif %}
+  <meta property="og:image:alt" content="{{ og_title | escape }}">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title | escape }}">
+  <meta name="twitter:description" content="{{ seo_description | escape }}">
+  <meta name="twitter:image" content="{{ og_image }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
