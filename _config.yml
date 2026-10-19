@@ -22,14 +22,16 @@ author:
 # Hero Settings
 hero:
   eyebrow: Pavel Nečas # small label above the headline
-  title: Multidisciplinary problem solver
+  title: "Ahoj, I'm Pavel."
   # Longer intro (not rendered on the homepage; kept in sync with the subline)
   description: >
-    Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning.
+    I'm a multidisciplinary problem solver. Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning.
   image: '/images/backgrounds/bg-1.jpg'
   # Short lines shown in the homepage hero, under the headline
   # Optional bold line between headline and subline; left empty because the subline already lists the fields
   pitch:
+  # Opening sentence of the intro paragraph, slightly emphasised
+  subline_lead: "I'm a multidisciplinary problem solver."
   subline: "Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning."
 
 #-------------------------------
