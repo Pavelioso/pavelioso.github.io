@@ -94,9 +94,9 @@
   }
 }
 
-// Homepage headline is a longer phrase: cap it on desktop, scale it down on phones
+// Homepage headline is a short greeting: a little bigger on desktop, scaled down on phones
 .hero:not(.hero--page) .hero__title {
-  font-size: clamp(32px, 8.6vw, 64px);
+  font-size: clamp(40px, 11vw, 80px);
   line-height: 1.02;
   text-wrap: balance;
 }
@@ -112,6 +112,11 @@
   @media only screen and (max-width: $mobile) {
     font-size: 20px;
   }
+}
+
+.hero__lead {
+  font-weight: 600;
+  color: $white;
 }
 
 .hero__desc {
