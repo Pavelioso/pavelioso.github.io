@@ -2,7 +2,7 @@
 # General Site Settings
 title: PAVEL NEČAS
 logo: # You can add own logo. For example '/images/logo.png'.
-description: "Ahoj, I'm Pavel. A multidisciplinary problem solver working across games, live events, 3D, web platforms and, more recently, AI."
+description: "Creative technologist helping companies turn new ideas into real things, for a whole project or one specific piece."
 # Link previews (WhatsApp, LinkedIn, Slack, X...). Homepage <title> and og:title; posts use their own title.
 seo_title: "Pavel Nečas – Creative technologist & programmer"
 # Default share image (1200x630 JPG, keep under ~300 KB for WhatsApp). Posts with an `image:` use their own cover.
@@ -29,14 +29,14 @@ hero:
   title: "Ahoj, I'm Pavel."
   # Longer intro (not rendered on the homepage; kept in sync with the subline)
   description: >
-    I'm a multidisciplinary problem solver. Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning.
+    I help companies turn new ideas into real things. Sometimes that means coming in for a whole project and staying with it from the first concept and research through prototyping, finding the right people, and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool, and I can jump in for exactly that. Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI.
   image: '/images/backgrounds/bg-1.jpg'
   # Short lines shown in the homepage hero, under the headline
   # Optional bold line between headline and subline; left empty because the subline already lists the fields
   pitch:
   # Opening sentence of the intro paragraph, slightly emphasised
-  subline_lead: "I'm a multidisciplinary problem solver."
-  subline: "Games, live events, 3D, web platforms and, more recently, AI. Over 15 years in media I've worked on all of these, usually as the person connecting the people, tools and ideas so the project actually gets finished. I like teamwork, I like hands-on problems, and I'm still learning."
+  subline_lead: "I help companies turn new ideas into real things."
+  subline: "Sometimes that means coming in for a whole project and staying with it from the first concept and research through prototyping, finding the right people, and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool, and I can jump in for exactly that. Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI."
 
 #-------------------------------
 # Homepage project filters (client-side). A project matches a filter if it has any of the listed tags.
