@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "VR Car Showroom for a Headset Maker, 120+ FPS in Unreal"
-description: "Built an \"Automotive Holodeck\" demo for a VR headset company: hand-optimized car model, baked lighting in Unreal, Leap Motion interaction."
+title:  "VR Car Showroom for VRgineers, 120+ FPS in Unreal"
+description: "Built an \"Automotive Holodeck\" demo for VRgineers, a VR headset maker: hand-optimized car model, baked lighting in Unreal, Leap Motion interaction."
 date:   2017-10-27 15:01:35 +0300
 image:  carvis-spaceship-2.jpg
 tags:   [VR, gamedev, interactive]
@@ -10,7 +10,7 @@ tags:   [VR, gamedev, interactive]
 
 ## What is this?
 
-We were approached by a VR headset company that wanted us to create an "Automotive Holodeck", that would be used screen content to present their VR technology. The VR headset had almost 10000 pixels on horizontal axis, so performance was of the utmost importance - basically the "holodeck" had to be realistic, but take as little of horsepower to render. 
+We were approached by [VRgineers](https://vrgineers.com), a VR headset company, who wanted us to create an "Automotive Holodeck", that would be used screen content to present their VR technology. The VR headset had almost 10000 pixels on horizontal axis, so performance was of the utmost importance - basically the "holodeck" had to be realistic, but take as little of horsepower to render. 
 
 
 <div class="gallery-box">
