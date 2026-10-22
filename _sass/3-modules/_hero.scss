@@ -119,6 +119,51 @@
   color: $white;
 }
 
+// Intro is markdown: short paragraphs plus a bullet list, with bold lead phrases
+.hero__desc {
+  p {
+    margin: 0 0 14px;
+  }
+
+  ul {
+    margin: 0 0 14px;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    margin: 0 0 6px;
+    padding-left: 22px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 0.68em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: $brand-color;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+    color: $white;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    p, ul { margin-bottom: 12px; }
+    li { padding-left: 18px; }
+    li::before { left: 2px; width: 6px; height: 6px; }
+  }
+}
+
 .hero__desc {
   max-width: 64ch; // readable line length for the longer intro paragraph
   margin: 0;
