@@ -28,4 +28,5 @@ Project cards and grids are rendered by `_includes/project-grid.html` (grid +
 optional client-side filters) and `_includes/article-content.html` (one card).
 Homepage filter buttons come from `project_filters` in `_config.yml`; a button
 is only shown when at least one post has one of its tags. The homepage hero
-text comes from `hero.eyebrow`, `hero.title`, `hero.pitch` and `hero.subline`.
+text comes from `hero.eyebrow`, `hero.title`, `hero.pitch`, `hero.subline_lead` and
+`hero.subline` (markdown, piped through `markdownify`, so `**bold**` and `- ` bullets render).

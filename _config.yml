@@ -27,16 +27,32 @@ author:
 hero:
   eyebrow: Pavel Nečas # small label above the headline
   title: "Ahoj, I'm Pavel."
-  # Longer intro (not rendered on the homepage; kept in sync with the subline)
-  description: >
-    I help companies turn new ideas into real things. Sometimes that means a whole project, from the first concept and research through prototyping, finding the right people and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool. And when a studio has more client work than time, I can take on the extra project, research it, set it up and build it, so they don't have to turn the client away. Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI.
+  # Longer intro (markdown, not rendered on the homepage; kept in sync with the subline)
+  description: |
+    I help companies turn new ideas into real things.
+
+    - **A whole project**, from the first concept and research to launch.
+    - **One specific piece**, like a Unity or Unreal prototype, an installation, a VR scene or an AI tool.
+    - **Extra client work** your team doesn't have time for, so you don't have to turn it away.
+
+    **I work closely with your team**, keep everyone in the loop and bring in the right people when they're needed.
+
+    15 years in live-event installations, VR, games and, more and more, applied AI.
   image: '/images/backgrounds/bg-1.jpg'
   # Short lines shown in the homepage hero, under the headline
   # Optional bold line between headline and subline; left empty because the subline already lists the fields
   pitch:
   # Opening sentence of the intro paragraph, slightly emphasised
   subline_lead: "I help companies turn new ideas into real things."
-  subline: "Sometimes that means a whole project, from the first concept and research through prototyping, finding the right people and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool. And when a studio has more client work than time, I can take on the extra project, research it, set it up and build it, so they don't have to turn the client away. Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI."
+  # Markdown: **bold** and "- " bullets render on the homepage (piped through markdownify)
+  subline: |
+    - **A whole project**, from the first concept and research to launch.
+    - **One specific piece**, like a Unity or Unreal prototype, an installation, a VR scene or an AI tool.
+    - **Extra client work** your team doesn't have time for, so you don't have to turn it away.
+
+    **I work closely with your team**, keep everyone in the loop and bring in the right people when they're needed.
+
+    15 years in live-event installations, VR, games and, more and more, applied AI.
 
 #-------------------------------
 # Homepage project filters (client-side). A project matches a filter if it has any of the listed tags.

@@ -14,7 +14,7 @@ layout: default
       {% if site.hero.eyebrow %}<p class="hero__eyebrow">{{ site.hero.eyebrow }}</p>{% endif %}
       <h1 class="hero__title">{{site.hero.title}}</h1>
       {% if site.hero.pitch %}<p class="hero__pitch">{{ site.hero.pitch }}</p>{% endif %}
-      {% if site.hero.subline %}<p class="hero__desc">{% if site.hero.subline_lead %}<span class="hero__lead">{{ site.hero.subline_lead }}</span> {% endif %}{{ site.hero.subline }}</p>{% endif %}
+      {% if site.hero.subline %}<div class="hero__desc">{% if site.hero.subline_lead %}<p class="hero__lead">{{ site.hero.subline_lead }}</p>{% endif %}{{ site.hero.subline | markdownify }}</div>{% endif %}
       <div class="hero__actions">
         <a class="button button--accent" href="#projects">See projects</a>
         <a class="button button--ghost" href="{{ site.baseurl }}/contact/">Contact</a>
