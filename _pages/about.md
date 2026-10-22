@@ -7,9 +7,9 @@ image: '/images/backgrounds/bg-2.jpg'
 
 ## HELLO!
 
-I'm Pavel Nečas. I help companies turn new ideas into real things. Sometimes that means coming in for a whole project and staying with it from the first concept and research through prototyping, finding the right people, and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool, and I can jump in for exactly that.
+I'm Pavel Nečas. I help companies turn new ideas into real things. Sometimes that means coming in for a whole project and staying with it from the first concept and research through prototyping, finding the right people, and building it, all the way to launch. Other times a team just needs one piece done well, like a Unity or Unreal prototype, an interactive installation, a VR scene or an AI tool, and I can jump in for exactly that. And when a studio or agency has more client work than it has time for, I can take on the extra project, research it, set it up and build it, so they keep the client instead of turning it away.
 
-Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI. I work freelance from Prague, either on a whole project or on one specific task.
+Over 15 years I've worked on live-event installations, VR, games and, more and more, applied AI. I work freelance from Prague, on a whole project, on one specific task, or on client work a team doesn't have time for.
 
 I tend to thrive in smaller, nimble teams where challenges vary daily and there’s no corporate red tape slowing down execution.
 
