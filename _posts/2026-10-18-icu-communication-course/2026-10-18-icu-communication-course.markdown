@@ -3,7 +3,7 @@ layout: post
 title:  "ICU Communication Course: AI Virtual Patients in Moodle"
 description: "Product owner and sole developer of a bilingual Moodle course for ICU teams: AI-evaluated voice virtual patients, 14 custom plugins, Stripe storefront."
 date:   2026-10-18 12:00:00 +0200
-image:  icu-virtual-patient.jpg
+image:  icu-comguide.jpg
 featured: true
 tags:   [programming, interactive]
 ---
@@ -36,6 +36,15 @@ This is built as two of my own activity modules: Conversation Avatar (the avatar
 
 ![Lesson 4.4 Virtual Patient: instructions to use a microphone and headphones, and a Start Conversation button](icu-vp-start.jpg)
 *Each chapter ends with a virtual patient checkpoint, started with one click*
+
+### ComGuide, the communication part as its own web app
+The communication practice was also built as a separate web app, ComGuide. You talk to conversational AI virtual patients by voice, in settings like a home bedroom or a hospital room. In the de-escalation scenarios, an emotional to rational meter shows how the conversation is going, and a side panel lists techniques to try: naming emotions, paraphrasing, asking follow-up questions, fogging (partial agreement) and support.
+
+![ComGuide: Theresa Black, a virtual patient in a hospital room, with an emotional to rational meter on the left and a panel of de-escalation techniques on the right](icu-comguide-deescalation.jpg)
+*ComGuide: a de-escalation conversation with Theresa Black, with the emotional to rational meter and the techniques panel*
+
+![ComGuide: Mr. Newman, a virtual patient in a hospital corridor, with the emotional to rational meter, a "Your last response" box and the same de-escalation techniques panel](icu-comguide-corridor.jpg)
+*Another scenario, with Mr. Newman in a hospital corridor*
 
 ### 14 custom Moodle plugins
 Everything custom has the `cg` prefix:
